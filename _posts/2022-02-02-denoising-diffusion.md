@@ -30,9 +30,7 @@ To obtain $x_t$ it seems like that the corruption should be applied to $x_0$ $t$
 
 ![Untitled](../images/2022-02-02-denoising-diffusion/Untitled%202.png)
 
-$q(x_t|x_0)$ represented as above.
-
-While there is no detailed derivation in paper, we can represent $x_t$with $x_{t-1}$ and noise, and again $x_{t-1}$ can be represented with $x_{t-2}$ and noise. Eventually, $x_t$ can be represented with $x_0$ and noise. This representation brings a great simplicity. Previously, we had to apply the corruption $T$ times to calculate the loss as if the input had to go through all layers of the encoder in the VAE. Using the simplification, we can directly obtain $x_t$ and calculate loss, where t is sampled from the uniform distribution.
+$q(xt|x0)$ represented as above. While there is no detailed derivation in paper, we can represent $x_t$with $x_{t-1}$ and noise, and again $x_{t-1}$ can be represented with $x_{t-2}$ and noise. Eventually, $x_t$ can be represented with $x_0$ and noise. This representation brings a great simplicity. Previously, we had to apply the corruption $T$ times to calculate the loss as if the input had to go through all layers of the encoder in the VAE. Using the simplification, we can directly obtain $x_t$ and calculate loss, where t is sampled from the uniform distribution.
 
 # Reverse Process
 
