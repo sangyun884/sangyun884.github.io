@@ -89,10 +89,13 @@ x_0 = (x_t - (1-\bar \alpha_t)\epsilon)/\sqrt{\bar \alpha _t}
 
 Now we decompose $x_0$ as above, and the only value we need to predict is $\epsilon$. Using this representation, eq 7 can be reformed as follows.
 
+
 \$\$
-\tilde \mu\_t=\frac\{\{\sqrt{\bar \alpha\_{t-1}}\beta\_t}}{1-\bar \alpha\_t}\frac{1}{\sqrt{\bar \alpha\_t}}(x\_t-\sqrt{1-\bar \alpha\_t}\epsilon)+\frac{\sqrt{\bar \alpha\_t}(1-\bar \alpha\_{t-1})}{1-\bar \alpha\_t}x\_t \\\\
-= (\frac{\beta\_t}{(1-\bar \alpha\_t)\sqrt{\alpha\_t}} + \frac{\sqrt{\alpha\_t}(1-\bar \alpha\_{t-1})}{1-\bar \alpha\_t})x\_t - \frac{\sqrt{1-\bar \alpha\_t}\beta\_t}{(1-\bar \alpha\_t)\sqrt{\alpha\_t}}\epsilon \\\\
+\displaylines{
+\tilde \mu\_t=\frac\{\{\sqrt{\bar \alpha\_{t-1}}\beta\_t}}{1-\bar \alpha\_t}\frac{1}{\sqrt{\bar \alpha\_t}}(x\_t-\sqrt{1-\bar \alpha\_t}\epsilon)+\frac{\sqrt{\bar \alpha\_t}(1-\bar \alpha\_{t-1})}{1-\bar \alpha\_t}x\_t \\
+= (\frac{\beta\_t}{(1-\bar \alpha\_t)\sqrt{\alpha\_t}} + \frac{\sqrt{\alpha\_t}(1-\bar \alpha\_{t-1})}{1-\bar \alpha\_t})x\_t - \frac{\sqrt{1-\bar \alpha\_t}\beta\_t}{(1-\bar \alpha\_t)\sqrt{\alpha\_t}}\epsilon \\
 = \frac{1}{\sqrt{\alpha\_t}}(x\_t - \frac{\beta\_t}{\sqrt{1-\bar \alpha\_t}}\epsilon)
+}
 \$\$
 
 Deriving the equation above, note that $\alpha_t\bar \alpha_{t-1}=\bar \alpha_t$ and $\beta_t=1-\alpha_t$ by definition. $\mu_\theta$ can be reformed in same manner.
