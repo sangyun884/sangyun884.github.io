@@ -290,3 +290,4 @@ defaults:
       related: true
 
 include: ["_pages"]
+google-analytics: [212125147]
