@@ -1,6 +1,7 @@
 ---
 title: "Denoising Diffusion Probabilistic Models"
 use_math: true
+comments: true
 ---
 
 https://arxiv.org/abs/2006.11239
