@@ -91,10 +91,13 @@ Now we decompose $x_0$ as above, and the only value we need to predict is $\epsi
 
 
 \$\$
-\begin{aligned}
-\tilde \mu\_t=\frac\{\{\sqrt{\bar \alpha\_{t-1}}\beta\_t}}{1-\bar \alpha\_t}\frac{1}{\sqrt{\bar \alpha\_t}}(x\_t-\sqrt{1-\bar \alpha\_t}\epsilon)+\frac{\sqrt{\bar \alpha\_t}(1-\bar \alpha\_{t-1})}{1-\bar \alpha\_t}x\_t &=
-\\ (\frac{\beta\_t}{(1-\bar \alpha\_t)\sqrt{\alpha\_t}} + \frac{\sqrt{\alpha\_t}(1-\bar \alpha\_{t-1})}{1-\bar \alpha\_t})x\_t - \frac{\sqrt{1-\bar \alpha\_t}\beta\_t}{(1-\bar \alpha\_t)\sqrt{\alpha\_t}}\epsilon &=
-\\ \frac{1}{\sqrt{\alpha\_t}}(x\_t - \frac{\beta\_t}{\sqrt{1-\bar \alpha\_t}}\epsilon)
+\tilde \mu\_t=\frac\{\{\sqrt{\bar \alpha\_{t-1}}\beta\_t}}{1-\bar \alpha\_t}\frac{1}{\sqrt{\bar \alpha\_t}}(x\_t-\sqrt{1-\bar \alpha\_t}\epsilon)+\frac{\sqrt{\bar \alpha\_t}(1-\bar \alpha\_{t-1})}{1-\bar \alpha\_t}x\_t 
+\$\$
+\$\$
+= (\frac{\beta\_t}{(1-\bar \alpha\_t)\sqrt{\alpha\_t}} + \frac{\sqrt{\alpha\_t}(1-\bar \alpha\_{t-1})}{1-\bar \alpha\_t})x\_t - \frac{\sqrt{1-\bar \alpha\_t}\beta\_t}{(1-\bar \alpha\_t)\sqrt{\alpha\_t}}\epsilon 
+\$\$
+\$\$
+= \frac{1}{\sqrt{\alpha\_t}}(x\_t - \frac{\beta\_t}{\sqrt{1-\bar \alpha\_t}}\epsilon)
 \end{aligned}
 \$\$
 
