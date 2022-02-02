@@ -71,7 +71,7 @@ In this paper, we assume the pixel values are discrete. The author presents the 
 
 Our observation $x_0^i$ is ,in fact, the result of discretization of the real numbers in 
 
-$(x_0-\frac{1}{255}, x_0+\frac{1}{255})$. Therefore, discrete likelihood is evaluated by integral within that range.
+$(x_0-\frac{0.5}{255}, x_0+\frac{0.5}{255})$. Therefore, discrete likelihood is evaluated by integral within that range.
 
 # Noise Prediction
 
