@@ -8,7 +8,7 @@ use_math: true
 # Contribution
 
 1. Reverse process predicts $\epsilon$ instead of $\tilde\mu_t$. Here author found the connection with NCSN. 
-2. Reweighted VLB ($L_{simple}$)
+2. Reweighted VLB (<span>$L_{simple}$</span>)
 
 ![Untitled](../images/2022-02-02-denoising-diffusion/Untitled.png)
 
