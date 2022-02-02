@@ -1,9 +1,10 @@
 ---
-title: "Paper Review: Denoising Diffusion Probabilistic Models"
+title: "Denoising Diffusion Probabilistic Models"
+layout: single
 use_math: true
 ---
 
-# Denoising Diffusion Probabilistic Models
+https://arxiv.org/abs/2006.11239
 
 # Contribution
 
