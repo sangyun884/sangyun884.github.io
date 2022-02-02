@@ -76,11 +76,11 @@ $(x_0-\frac{1}{255}, x_0+\frac{1}{255})$. Therefore, discrete likelihood is eval
 
 So far, we have seen the basic form of DDPM and the training procedure. As can be seen in eq 8, training DDPM is to predict the $\tilde \mu_t$ in eq 7. The reason why it is difficult is that we know the values of every constant except $x_0$. As predicting $x_0$  from noisy observation $x_t$ is not a trivial task, we need to decompose it into a more manageable form. Utilizing eq 4, we can express $x_t$ using the reparameterization trick as follows.
 
-<div>
-$$
+
+\$\$
 x_t = \sqrt{\bar \alpha \_t}x_0 + (1-\bar \alpha\_t)\epsilon
-$$
-</div>
+\$\$
+
 $x_0$ is represented as follows.
 
 \$\$
@@ -90,8 +90,8 @@ x_0 = (x_t - (1-\bar \alpha_t)\epsilon)/\sqrt{\bar \alpha _t}
 Now we decompose $x_0$ as above, and the only value we need to predict is $\epsilon$. Using this representation, eq 7 can be reformed as follows.
 
 \$\$
-\tilde \mu\_t=\frac\{\{\sqrt{\bar \alpha\_{t-1}}\beta\_t}}{1-\bar \alpha\_t}\frac{1}{\sqrt{\bar \alpha\_t}}(x\_t-\sqrt{1-\bar \alpha\_t}\epsilon)+\frac{\sqrt{\bar \alpha\_t}(1-\bar \alpha\_{t-1})}{1-\bar \alpha\_t}x\_t \\
-= (\frac{\beta\_t}{(1-\bar \alpha\_t)\sqrt{\alpha\_t}} + \frac{\sqrt{\alpha\_t}(1-\bar \alpha\_{t-1})}{1-\bar \alpha\_t})x\_t - \frac{\sqrt{1-\bar \alpha\_t}\beta\_t}{(1-\bar \alpha\_t)\sqrt{\alpha\_t}}\epsilon \\
+\tilde \mu\_t=\frac\{\{\sqrt{\bar \alpha\_{t-1}}\beta\_t}}{1-\bar \alpha\_t}\frac{1}{\sqrt{\bar \alpha\_t}}(x\_t-\sqrt{1-\bar \alpha\_t}\epsilon)+\frac{\sqrt{\bar \alpha\_t}(1-\bar \alpha\_{t-1})}{1-\bar \alpha\_t}x\_t \\\\
+= (\frac{\beta\_t}{(1-\bar \alpha\_t)\sqrt{\alpha\_t}} + \frac{\sqrt{\alpha\_t}(1-\bar \alpha\_{t-1})}{1-\bar \alpha\_t})x\_t - \frac{\sqrt{1-\bar \alpha\_t}\beta\_t}{(1-\bar \alpha\_t)\sqrt{\alpha\_t}}\epsilon \\\\
 = \frac{1}{\sqrt{\alpha\_t}}(x\_t - \frac{\beta\_t}{\sqrt{1-\bar \alpha\_t}}\epsilon)
 \$\$
 
