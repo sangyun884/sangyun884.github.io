@@ -46,13 +46,13 @@ Since a single step of the forward process perturbs the data to a small degree, 
 
 Since DDPM is a kind of VAE, the loss function is identical to that of hierarchical VAE (ELBO). $L_T$ corresponds to the loss term in VAE, which make posterior follow the gaussian prior.  Unlike VAE, the forward process of DDPM is the fixed process that maps the input to gaussian noise. Therefore, $L_T$ is a constant close to zero, so we can ignore it. $L_{t-1}$ corresponds to predicting the forward process posterior. $L_0$ measures the likelihood of generated sample.
 
-To minimize $L_t$, a model has to predict $x_{t-1}$ given $x_t$, which is not a trivial task. Distinguishing the noise and content from given image requires the deep understanding of entire data distribution. To calculate KL divergence of $L_t$, we must know $q(x_{t-1}|x_t,x_0)$ which we can obtain via simple calculation. Intuitively, it is easy to remove noise a little if we have uncorrupted sample $x_0$. Concretely, we can derive a true posterior $q\left(\mathbf{x}_{t-1} \mid \mathbf{x}_{t}, \mathbf{x}_{0}\right)=\mathcal{N}\left(\mathbf{x}_{t-1}  \tilde{\mu}\left(\mathbf{x}_{t}, \mathbf{x}_{0}\right), \tilde{\beta}_{t} \mathbf{I}\right)$as follows.
+To minimize $L_t$, a model has to predict $x_{t-1}$ given $x_t$, which is not a trivial task. Distinguishing the noise and content from given image requires the deep understanding of entire data distribution. To calculate KL divergence of $L_t$, we must know $q(x_{t-1}\|x_t,x_0)$ which we can obtain via simple calculation. Intuitively, it is easy to remove noise a little if we have uncorrupted sample $x_0$. Concretely, we can derive a true posterior $q\left(\mathbf{x}_{t-1} \mid \mathbf{x}_{t}, \mathbf{x}_{0}\right)=\mathcal{N}\left(\mathbf{x}_{t-1}  \tilde{\mu}\left(\mathbf{x}_{t}, \mathbf{x}_{0}\right), \tilde{\beta}_{t} \mathbf{I}\right)$as follows.
 
 $$
 q\left(\mathbf{x}_{t-1} \mid \mathbf{x}_{t}, \mathbf{x}_{0}\right)=q\left(\mathbf{x}_{t} \mid \mathbf{x}_{t-1}, \mathbf{x}_{0}\right) \frac{q\left(\mathbf{x}_{t-1} \mid \mathbf{x}_{0}\right)}{q\left(\mathbf{x}_{t} \mid \mathbf{x}_{0}\right)}
 $$
 
-After applying bayes' rule, we can get $q(x_t|x_{t-1},x_0)$ as it is equal to $q(x_t|x_{t-1})$ which we already have in eq2. Note that forward process is a markov chain so we can safely remove $x_0$ which is conditionally independent with $x_t$. As we already derived $q(x_{t-1}|x_0)$ and $q(x_{t}|x_0)$ in eq 4, we can obtain $\tilde \mu$ and $\tilde \beta$ as follows.
+After applying bayes' rule, we can get $q(x_t\|x_{t-1},x_0)$ as it is equal to $q(x_t\|x_{t-1})$ which we already have in eq2. Note that forward process is a markov chain so we can safely remove $x_0$ which is conditionally independent with $x_t$. As we already derived $q(x_{t-1}\|x_0)$ and $q(x_{t}\|x_0)$ in eq 4, we can obtain $\tilde \mu$ and $\tilde \beta$ as follows.
 
 ![Untitled](../images/2022-02-02-denoising-diffusion/Untitled%205.png)
 
