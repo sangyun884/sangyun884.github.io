@@ -79,13 +79,13 @@ So far, we have seen the basic form of DDPM and the training procedure. As can b
 
 
 \$\$
-x_t = \sqrt{\bar \alpha \_t}x_0 + (1-\bar \alpha\_t)\epsilon
+x_t = \sqrt{\bar \alpha \_t}x_0 + \sqrt{(1-\bar \alpha\_t)}\epsilon
 \$\$
 
 $x_0$ is represented as follows.
 
 \$\$
-x_0 = (x_t - (1-\bar \alpha_t)\epsilon)/\sqrt{\bar \alpha _t}
+x_0 = (x_t - \sqrtP(1-\bar \alpha_t)}\epsilon)/\sqrt{\bar \alpha _t}
 \$\$
 
 Now we decompose $x_0$ as above, and the only value we need to predict is $\epsilon$. Using this representation, eq 7 can be reformed as follows.
