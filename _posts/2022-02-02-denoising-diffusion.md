@@ -76,23 +76,23 @@ $(x_0-\frac{1}{255}, x_0+\frac{1}{255})$. Therefore, discrete likelihood is eval
 
 So far, we have seen the basic form of DDPM and the training procedure. As can be seen in eq 8, training DDPM is to predict the $\tilde \mu_t$ in eq 7. The reason why it is difficult is that we know the values of every constant except $x_0$. As predicting $x_0$  from noisy observation $x_t$ is not a trivial task, we need to decompose it into a more manageable form. Utilizing eq 4, we can express $x_t$ using the reparameterization trick as follows.
 
-$$
-x_t = \sqrt{\bar \alpha _t}x_0 + (1-\bar \alpha_t)\epsilon
-$$
+\$\$
+x\_t = \sqrt{\bar \alpha \_t}x_0 + (1-\bar \alpha\_t)\epsilon
+\$\$
 
 $x_0$ is represented as follows.
 
-$$
+\$\$
 x_0 = (x_t - (1-\bar \alpha_t)\epsilon)/\sqrt{\bar \alpha _t}
-$$
+\$\$
 
 Now we decompose $x_0$ as above, and the only value we need to predict is $\epsilon$. Using this representation, eq 7 can be reformed as follows.
 
-$$
+\$\$
 \tilde \mu_t=\frac{{\sqrt{\bar \alpha_{t-1}}\beta_t}}{1-\bar \alpha_t}\frac{1}{\sqrt{\bar \alpha_t}}(x_t-\sqrt{1-\bar \alpha_t}\epsilon)+\frac{\sqrt{\bar \alpha_t}(1-\bar \alpha_{t-1})}{1-\bar \alpha_t}x_t \\
 = (\frac{\beta_t}{(1-\bar \alpha_t)\sqrt{\alpha_t}} + \frac{\sqrt{\alpha_t}(1-\bar \alpha_{t-1})}{1-\bar \alpha_t})x_t - \frac{\sqrt{1-\bar \alpha_t}\beta_t}{(1-\bar \alpha_t)\sqrt{\alpha_t}}\epsilon \\
 = \frac{1}{\sqrt{\alpha_t}}(x_t - \frac{\beta_t}{\sqrt{1-\bar \alpha_t}}\epsilon)
-$$
+\$\$
 
 Deriving the equation above, note that $\alpha_t\bar \alpha_{t-1}=\bar \alpha_t$ and $\beta_t=1-\alpha_t$ by definition. $\mu_\theta$ can be reformed in same manner.
 
@@ -101,9 +101,9 @@ Deriving the equation above, note that $\alpha_t\bar \alpha_{t-1}=\bar \alpha_t$
     ![SmartSelect_20211114-202459_Samsung Notes.jpg](../images/2022-02-02-denoising-diffusion/SmartSelect_20211114-202459_Samsung_Notes.jpg)
     
 
-$$
+\$\$
 \mu_\theta = \frac{1}{\sqrt{\alpha_t}}(x_t - \frac{\beta_t}{\sqrt{1-\bar \alpha_t}}\epsilon_{\theta})
-$$
+\$\$
 
 Eq 8 is modified using $\tilde \mu_t$ and $\mu_\theta$ as follows.
 
