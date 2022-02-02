@@ -26,7 +26,7 @@ Forward process is defined as above. $\beta_t$ is predetermined constant that in
 
 The purpose for scaling with $\sqrt{1-\beta_t}$ is to maintain a unit variance after adding noise. First, variance become  $1-\beta_t$ after multiplying with $\sqrt{1-\beta_t}$. Then variance becomes unit after adding noise of which variance is $\beta_t$. If the scaling is removed, a variance will increase by $\beta_t$. As we use a single model for every time step, it is better to bound the value of $x_t$ to a certain degree.
 
-To obtain $x_t$ it seems like that the corruption should be applied to $x_0$ $t$ times, but there is a way to do it at once. If $\alpha_t:=1-\beta_t$ and $\bar{\alpha}_{t}:=\prod$
+To obtain $x_t$ it seems like that the corruption should be applied to $x_0$ $t$ times, but there is a way to do it at once. If $\alpha_t:=1-\beta_t$ and $\bar{\alpha}_{t}:=\prod_{s=1}^{t} \alpha_{s}$
 
 ![Untitled](../images/2022-02-02-denoising-diffusion/Untitled%202.png)
 
