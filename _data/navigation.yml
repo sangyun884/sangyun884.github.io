@@ -4,7 +4,7 @@ main:
   #  url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
   - title: "About"
     url: https://sangyun884.github.io/about/
-    - title: "CV"
+  - title: "CV"
     url: https://drive.google.com/file/d/1kyjdVwdtpQNvFVEW0dh79yKdCiJuaejN/view?usp=sharing
   # - title: "Sample Posts"
   #   url: /year-archive/
