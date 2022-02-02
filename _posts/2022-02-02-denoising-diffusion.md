@@ -1,6 +1,6 @@
 ---
 title: "Denoising Diffusion Probabilistic Models"
-layout: single
+layout: post
 use_math: true
 ---
 
