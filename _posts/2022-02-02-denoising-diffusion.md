@@ -77,9 +77,9 @@ $(x_0-\frac{1}{255}, x_0+\frac{1}{255})$. Therefore, discrete likelihood is eval
 So far, we have seen the basic form of DDPM and the training procedure. As can be seen in eq 8, training DDPM is to predict the $\tilde \mu_t$ in eq 7. The reason why it is difficult is that we know the values of every constant except $x_0$. As predicting $x_0$  from noisy observation $x_t$ is not a trivial task, we need to decompose it into a more manageable form. Utilizing eq 4, we can express $x_t$ using the reparameterization trick as follows.
 
 <div>
-\$\$
+$$
 x_t = \sqrt{\bar \alpha \_t}x_0 + (1-\bar \alpha\_t)\epsilon
-\$\$
+$$
 </div>
 $x_0$ is represented as follows.
 
