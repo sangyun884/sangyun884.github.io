@@ -26,11 +26,11 @@ Forward process is defined as above. $\beta_t$ is predetermined constant that in
 
 The purpose for scaling with $\sqrt{1-\beta_t}$ is to maintain a unit variance after adding noise. First, variance become  $1-\beta_t$ after multiplying with $\sqrt{1-\beta_t}$. Then variance becomes unit after adding noise of which variance is $\beta_t$. If the scaling is removed, a variance will increase by $\beta_t$. As we use a single model for every time step, it is better to bound the value of $x_t$ to a certain degree.
 
-To obtain $x_t$ it seems like that the corruption should be applied to $x_0$ $t$ times, but there is a way to do it at once. If $\alpha_t:=1-\beta_t$ and $\bar{\alpha}_{t}:=$
+To obtain $x_t$ it seems like that the corruption should be applied to $x_0$ $t$ times, but there is a way to do it at once. If $\alpha_t:=1-\beta_t$ and $\bar{\alpha}_{t}:=asdasddasdasdasdadasdasdsad$
 
 ![Untitled](../images/2022-02-02-denoising-diffusion/Untitled%202.png)
 
-$q(x_t|x_0)$ represented as above. While there is no detailed derivation in paper, we can represent $x_t$with $x_{t-1}$ and noise, and again $x_{t-1}$ can be represented with $x_{t-2}$ and noise. Eventually, $x_t$ can be represented with $x_0$ and noise. This representation brings a great simplicity. Previously, we had to apply the corruption $T$ times to calculate the loss as if the input had to go through all layers of the encoder in the VAE. Using the simplification, we can directly obtain $x_t$ and calculate loss, where t is sampled from the uniform distribution.
+$a$ represented as above. While there is no detailed derivation in paper, we can represent $x_t$with $x_{t-1}$ and noise, and again $x_{t-1}$ can be represented with $x_{t-2}$ and noise. Eventually, $x_t$ can be represented with $x_0$ and noise. This representation brings a great simplicity. Previously, we had to apply the corruption $T$ times to calculate the loss as if the input had to go through all layers of the encoder in the VAE. Using the simplification, we can directly obtain $x_t$ and calculate loss, where t is sampled from the uniform distribution.
 
 # Reverse Process
 
