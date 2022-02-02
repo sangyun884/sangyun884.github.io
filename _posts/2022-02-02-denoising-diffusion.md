@@ -5,7 +5,7 @@
 1. Reverse process predicts $\epsilon$ instead of $\tilde\mu_t$. Here author found the connection with NCSN. 
 2. Reweighted VLB ($L_{simple}$)
 
-![Untitled](Denoising%20Diffusion%20Probabilistic%20Models%20(English)%20f66bd8e095ee4578b7ce25cb1636c3be/Untitled.png)
+![Untitled](../images/denoising-diffusion/Untitled.png)
 
 DDPM is latent variable model with $T$ latent variable, i.e. $p_{\theta}(x_0):=\int p_{\theta}(x_{0:T})dx_{1:T}$. While DDPM is basically a hierarchical VAE, there are several differences as follows.
 
