@@ -1,4 +1,9 @@
-# Denoising Diffusion Probabilistic Models (English)
+---
+title: "Paper Review: Denoising Diffusion Probabilistic Models"
+use_math: true
+---
+
+# Denoising Diffusion Probabilistic Models
 
 # Contribution
 
