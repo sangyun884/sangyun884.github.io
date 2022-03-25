@@ -13,7 +13,7 @@ https://arxiv.org/abs/2006.11239
 
 ![Untitled](../images/2022-02-02-denoising-diffusion/Untitled.png)
 
-DDPM is latent variable model with $T$ latent variable, i.e. $p_{\theta}(x_0):=\int p_{\theta}(x_{0:T})dx_{1:T}$. While DDPM is basically a hierarchical VAE, there are several differences as follows.
+DDPM is a latent variable model with $T$ latent variable, i.e. $p_{\theta}(x_0):=\int p_{\theta}(x_{0:T})dx_{1:T}$. While DDPM is basically a hierarchical VAE, there are several differences as follows.
 
 1. While the encoder of VAE has learnable parameters, the forward process of DDPM is a fixed procedure in which each step corrupts the signal of input slightly.
 2. Unlike VAE where each layer of decoder has different parameters, DDPM shares the parameters between each time step. 
