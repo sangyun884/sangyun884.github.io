@@ -103,7 +103,7 @@ Song et al. [11] showed that we could obtain the score of a conditional generati
 
 \$\$
 \begin{equation}
-\nabla_x\log p(c\vert x)=\nabla_x\log p(x\vert c) - \nabla_x\log p(x)
+\nabla\_x\log p(c\vert x)=\nabla\_x\log p(x\vert c) - \nabla\_x\log p(x)
 \end{equation}
 \$\$
 
