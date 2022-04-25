@@ -5,7 +5,7 @@ comments: true
 ---
 
 https://arxiv.org/abs/2006.11239
-
+1
 # Contribution
 
 1. Reverse process predicts $\epsilon$ instead of $\tilde\mu_t$. Here author found the connection with NCSN. 
