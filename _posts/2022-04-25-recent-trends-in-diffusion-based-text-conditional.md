@@ -1,16 +1,16 @@
 # Recent Trends In Diffusion-Based Text-Conditional Image Synthesis
 
-![Untitled](Recent%20Trends%20In%20Diffusion-Based%20Text-Conditional%20%20361522a565c34a9da341558f771c3f5d/Untitled.png)
+![Untitled](../images/2022-04-25-recent-trends-in-diffusion-based-text-conditional/Untitled.png)
 
 Since OpenAI announced DALLE-2, the attention on diffusion-based text-conditional image synthesis is largely increasing. In this post, I will cover recent trends from GAN-based image manipulation to DALLE-2. I will assume the readers are already fairly familiar with diffusion models.
 
 # GAN-based image manipulation
 
-![Untitled](Recent%20Trends%20In%20Diffusion-Based%20Text-Conditional%20%20361522a565c34a9da341558f771c3f5d/Untitled%201.png)
+![Untitled](../images/2022-04-25-recent-trends-in-diffusion-based-text-conditional/Untitled%201.png)
 
 Text-guided image manipulation is the task of modifying an image based on a given text prompt. As shown in the image above, we can change the topping of the pizza, make it to be a chocolate chip cookie, or perform a style transfer.
 
-![Untitled](Recent%20Trends%20In%20Diffusion-Based%20Text-Conditional%20%20361522a565c34a9da341558f771c3f5d/Untitled%202.png)
+![Untitled](../images/2022-04-25-recent-trends-in-diffusion-based-text-conditional/Untitled%202.png)
 
 The studies that utilize pre-trained GAN for image manipulation can be sorted into the methods that perform latent optimization (w-learner) [1] and the methods that perform generator optimization (G-learner) [2]. The idea is basically that we can generate an image consistent with a given text prompt by optimizing either the latent vector or generator itself to maximize the similarity $s$ between the text and the image. Unlike the w-learner that performs latent space exploration only, G-learner changes the distribution of the generator, making it possible to generate the images in the unseen domain that are not included in the training set. However, GAN-inversion is needed to apply these approaches for real image editing.
 
@@ -22,7 +22,7 @@ The studies that utilize pre-trained GAN for image manipulation can be sorted in
 
 # DiffusionCLIP
 
-![Untitled](Recent%20Trends%20In%20Diffusion-Based%20Text-Conditional%20%20361522a565c34a9da341558f771c3f5d/Untitled%203.png)
+![Untitled](../images/2022-04-25-recent-trends-in-diffusion-based-text-conditional/Untitled%203.png)
 
 Drawbacks of GAN-based manipulation methods include the error in GAN inversion and the limited performance of GANs on complex datasets. It is known that DDIM allows deterministic sampling of diffusion models, and nearly perfect inversion can be achieved by inverting the generative ODE [6]. Furthermore, diffusion models tend to perform better on complex datasets than GANs. DiffusionCLIP [3] exploits these advantages. They fine-tune the parameters of ODE to maximize the CLIP similarity between a text and an image, which is similar to G-learner in GAN-based manipulation methods, allowing translation to out-of-domain.
 
@@ -49,7 +49,7 @@ $s$ is a scalar adjusting the strength of guidance, $\Sigma$ is the covariance m
 
 # GLIDE
 
-![Untitled](Recent%20Trends%20In%20Diffusion-Based%20Text-Conditional%20%20361522a565c34a9da341558f771c3f5d/Untitled%204.png)
+![Untitled](../images/2022-04-25-recent-trends-in-diffusion-based-text-conditional/Untitled%204.png)
 
 GLIDE [5] from OpenAI is the de facto predecessor of DALLE-2 that shows very impressive results. Unlike the models we have covered so far that do not require large-scale datasets consisting of text and image pairs, GLIDE leverages hundreds of millions of pairs. The idea is simple. As they have paired dataset, they train a text-conditional model by feeding a text prompt into a massive diffusion model as a condition. Since the dataset is very large and has high diversity, it is hard to define an explicit out-of-domain, making versatile image generation or editing possible.
 
@@ -60,9 +60,9 @@ GLIDE [5] from OpenAI is the de facto predecessor of DALLE-2 that shows very imp
 
 GLIDE has total 5B parameters, consisting of a 64 x 64 text-conditional diffusion model (3.5B) and a 4x upsampler (1.5B). Text-conditional model is augmented from ADM [6] by increasing the width to 512 channels (2.3B) and attaching a text encoder (1.2B).
 
-![Untitled](Recent%20Trends%20In%20Diffusion-Based%20Text-Conditional%20%20361522a565c34a9da341558f771c3f5d/Untitled%205.png)
+![Untitled](../images/2022-04-25-recent-trends-in-diffusion-based-text-conditional/Untitled%205.png)
 
-![Untitled](Recent%20Trends%20In%20Diffusion-Based%20Text-Conditional%20%20361522a565c34a9da341558f771c3f5d/Untitled%206.png)
+![Untitled](../images/2022-04-25-recent-trends-in-diffusion-based-text-conditional/Untitled%206.png)
 
 The quality of generation, editing, and inpainting are pretty decent. GLIDE shows that it is possible to make surprising results by training a massive diffusion model on a huge paired dataset. Compared with of Ho et al. [7], which has 256M parameters, the model size increases by a factor of 20.
 
@@ -120,13 +120,13 @@ $$
 
 For classifier-free guidance, authors train a single model capable of both unconditional and conditional generation by feeding null labels randomly.
 
-![Untitled](Recent%20Trends%20In%20Diffusion-Based%20Text-Conditional%20%20361522a565c34a9da341558f771c3f5d/Untitled%207.png)
+![Untitled](../images/2022-04-25-recent-trends-in-diffusion-based-text-conditional/Untitled%207.png)
 
 Intuitively, we can exact stronger guidance by adding the difference vector between conditional and unconditional score vector multiplied by $s$ that is larger than 1. Classifier-free guidance enables fidelity-diversity trade-off without re-training CLIP on noised data. The authors show in an experiment that this approach outperforms conditional sampling using re-trained CLIP. Classifier-free guidance is also used in DALLE-2.
 
 # DALLE-2
 
-![Untitled](Recent%20Trends%20In%20Diffusion-Based%20Text-Conditional%20%20361522a565c34a9da341558f771c3f5d/Untitled%208.png)
+![Untitled](../images/2022-04-25-recent-trends-in-diffusion-based-text-conditional/Untitled%208.png)
 
 OpenAI’s DALLE-2 [9] is an upgraded version of GLIDE (it would be more natural to call it GLIDE-2). The generative process of DALLE-2 is hierarchical, where the first CLIP image embedding $z_i$ for a given text is synthesized by the prior diffusion model, and then the decoder diffusion model generates the image using a text and $z_i$. This is similar to the latent diffusion model [10], as they generate a latent representation containing essential information of an image before synthesizing the final result. An overall text-conditional model can be written as follows:
 
@@ -138,13 +138,13 @@ $$
 
 where $x$ and $y$ are an image and a text, respectively. The first equality is satisfied as CLIP image encoder is deterministic ($p(x,z_i \vert y)=p(z_i\vert x,y)p(x \vert y)=p(x\vert y)$). The second equality holds because of the chain rule. 
 
-![Untitled](Recent%20Trends%20In%20Diffusion-Based%20Text-Conditional%20%20361522a565c34a9da341558f771c3f5d/Untitled%209.png)
+![Untitled](../images/2022-04-25-recent-trends-in-diffusion-based-text-conditional/Untitled%209.png)
 
-![Untitled](Recent%20Trends%20In%20Diffusion-Based%20Text-Conditional%20%20361522a565c34a9da341558f771c3f5d/Untitled%2010.png)
+![Untitled](../images/2022-04-25-recent-trends-in-diffusion-based-text-conditional/Untitled%2010.png)
 
 The hierarchical generative process of DALLE-2 has a noticeable advantage — we can generate various variations of a single image. Although previous diffusion models are also capable of doing so by inverting an image using DDIM inversion and making it go through the stochastic reverse process, the preservation of essential information is not guaranteed. In contrast, the decoder of DALLE-2 is conditioned on $z_i$ containing key information of an image and thus able to generate diverse variations of the image without loss of important properties by encoding the image into $z_i$ and feeding it into the decoder.
 
-![Untitled](Recent%20Trends%20In%20Diffusion-Based%20Text-Conditional%20%20361522a565c34a9da341558f771c3f5d/Untitled%2011.png)
+![Untitled](../images/2022-04-25-recent-trends-in-diffusion-based-text-conditional/Untitled%2011.png)
 
 As shown in the table above, zero-shot FID on MS-COCO is not that much different compared to GLIDE. Although they also mention other advantages of DALLE-2, such as a superior diversity-fidelity trade-off to GLIDE, the quality of synthesis results, which is the reason why this model became popular, is not drastically improved from GLIDE. 
 
