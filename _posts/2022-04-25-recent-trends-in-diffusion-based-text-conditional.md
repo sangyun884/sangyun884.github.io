@@ -107,7 +107,7 @@ Song et al. [11] showed that we could obtain the score of a conditional generati
 \end{equation}
 \$\$
 
-Eq. 5 indicates that we can get the score of one distribution given the other two scores. Here, we obtain the log gradient of the classifier given scores of $p(x)$ and $p(x|c)$. Score and $\epsilon_\theta$ have the relation as follows:
+Eq. 5 indicates that we can get the score of one distribution given the other two scores. Here, we obtain the log gradient of the classifier given scores of $p(x)$ and $p(x\vert c)$. Score and $\epsilon_\theta$ have the relation as follows:
 
 \$\$
 \begin{equation}
