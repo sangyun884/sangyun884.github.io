@@ -4,7 +4,6 @@ use_math: true
 comments: true
 ---
 
-# Recent Trends In Diffusion-Based Text-Conditional Image Synthesis
 
 ![Untitled](../images/2022-04-25-recent-trends-in-diffusion-based-text-conditional/Untitled.png)
 
@@ -40,11 +39,11 @@ This still requires costly optimization of ODE.
 
 Text-conditional generation can be performed by utilizing CLIP guidance to guide the reverse process of the unconditional diffusion model [4]:
 
-$$
+\$\$
 \begin{equation}
 \hat \mu_\theta (x_t) = \mu_\theta(x_t) + s\Sigma\nabla x_t( I(x_t)\cdot T(c)).
 \end{equation}
-$$
+\$\$
 
 $s$ is a scalar adjusting the strength of guidance, $\Sigma$ is the covariance matrix of a reverse process step, and $I$ and $T$ are image and text encoders of CLIP, respectively. Guided by text prompt, we can generate novel images or manipulate existing images by making them go through a forward process for a certain amount of steps and then pass through a reverse process. To use CLIP guidance, we would have to re-train CLIP on the noised dataset. Instead, we can calculate $\hat x_0$ from $\epsilon_\theta(x_t,t)$ and get the gradient of it with respect to CLIP similarity. Note that $\hat x_0$ can be differentiated by $\epsilon_\theta$, and $\epsilon_\theta$ can be differentiated by $x_t$. However, $\hat x_0$ is blurry or noisy, especially when $t$ is large, leading to worse performance than re-training CLIP, which is unfeasible in terms of computation.
 
@@ -78,51 +77,51 @@ As GLIDE learns the relationship between texts and images, CLIP is not needed an
 
 Classifier guidance, proposed by authors of ADM [6], is a widely used technique that enables conditional sampling of unconditional diffusion models and allows fidelity-diversity trade-off to improve sample quality:
 
-$$
+\$\$
 \begin{equation}
 \hat \mu_\theta (x_t,c) = \mu_\theta(x_t) + s\Sigma \nabla x_t \log p_\phi (c \vert x_t),
 \end{equation}
-$$
+\$\$
 
 where $\Sigma$ is a covariance matrix of $p_\theta(x_t\vert x_{t+1})$ and $s$ is the guidance scale. The larger $s$, the lower the diversity and the higher the performance. $c$ is a condition that could be a class label in ImageNet or a text in a text-conditional generation. $p_\phi (c\vert x_t)$ is a classifier that is trained on noised data. In classifier-free guidance [8], authors define classifier guidance in a slightly different manner using $\epsilon_\theta$ as follows:
 
-$$
+\$\$
 \begin{equation}
 \hat \epsilon_\theta (x_t, c) = \epsilon_\theta(x_t) - s\beta_t \nabla x_t \log p_\phi (c \vert x_t),
 \end{equation}
-$$
+\$\$
 
 where $\beta_t$ is $t$-th variance of noise schedule. Note that Eq. 2 and Eq. 3 are same except for the coefficient of the score. 
 
 Song et al. [11] showed that we could obtain the score of a conditional generative model given the scores of a classifier and unconditional generative model. This is demonstrated by applying Bayes’ rule to the log probability of the classifier.
 
-$$
+\$\$
 \begin{equation}
 \log p(c\vert x)=\log \frac{p(x\vert c)p(c)}{p(x)}
 \end{equation}
-$$
+\$\$
 
-$$
+\$\$
 \begin{equation}
 \nabla_x\log p(c\vert x)=\nabla_x\log p(x\vert c) - \nabla_x\log p(x)
 \end{equation}
-$$
+\$\$
 
 Eq. 5 indicates that we can get the score of one distribution given the other two scores. Here, we obtain the log gradient of the classifier given scores of $p(x)$ and $p(x|c)$. Score and $\epsilon_\theta$ have the relation as follows:
 
-$$
+\$\$
 \begin{equation}
 -\beta_t\nabla_x\log p_t(x) \approx \epsilon_\theta(x_t).
 \end{equation}
-$$
+\$\$
 
 Therefore, if we know $\epsilon_\theta(x_t)$ and $\epsilon_\theta(x_t \vert c)$, we can obtain $\hat \epsilon_\theta(x_t)$ without relying on separate (and sometimes smaller) classifier:
 
-$$
+\$\$
 \begin{equation}
 \hat \epsilon_\theta (x_t, c) = \epsilon_\theta(x_t) - s\beta_t \nabla x_t \log p_\phi (c \vert x_t) = \epsilon_\theta(x_t) + s(\epsilon_\theta(x_t, c) - \epsilon_\theta(x_t)).
 \end{equation}
-$$
+\$\$
 
 For classifier-free guidance, authors train a single model capable of both unconditional and conditional generation by feeding null labels randomly.
 
@@ -136,11 +135,11 @@ Intuitively, we can exact stronger guidance by adding the difference vector betw
 
 OpenAI’s DALLE-2 [9] is an upgraded version of GLIDE (it would be more natural to call it GLIDE-2). The generative process of DALLE-2 is hierarchical, where the first CLIP image embedding $z_i$ for a given text is synthesized by the prior diffusion model, and then the decoder diffusion model generates the image using a text and $z_i$. This is similar to the latent diffusion model [10], as they generate a latent representation containing essential information of an image before synthesizing the final result. An overall text-conditional model can be written as follows:
 
-$$
+\$\$
 \begin{equation}
 p_\theta(x\vert y)=p_\theta(x,z_i\vert y)=p_\theta(x\vert z_i,y)p_\theta(z_i\vert y),
 \end{equation}
-$$
+\$\$
 
 where $x$ and $y$ are an image and a text, respectively. The first equality is satisfied as CLIP image encoder is deterministic ($p(x,z_i \vert y)=p(z_i\vert x,y)p(x \vert y)=p(x\vert y)$). The second equality holds because of the chain rule. 
 
