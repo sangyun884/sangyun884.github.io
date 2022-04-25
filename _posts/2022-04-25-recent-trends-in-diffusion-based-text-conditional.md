@@ -2,6 +2,7 @@
 title: "Recent Trends In Diffusion-Based Text-Conditional Image Synthesis"
 use_math: true
 comments: true
+thumbnail: "../images/2022-04-25-recent-trends-in-diffusion-based-text-conditional/Untitled.png"
 ---
 
 
