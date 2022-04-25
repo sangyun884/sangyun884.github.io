@@ -5,7 +5,6 @@ comments: true
 ---
 
 https://arxiv.org/abs/2006.11239
-1
 # Contribution
 
 1. Reverse process predicts $\epsilon$ instead of $\tilde\mu_t$. Here author found the connection with NCSN. 
@@ -85,7 +84,7 @@ x_t = \sqrt{\bar \alpha \_t}x_0 + \sqrt{(1-\bar \alpha\_t)}\epsilon
 $x_0$ is represented as follows.
 
 \$\$
-x_0 = (x_t - \sqrtP(1-\bar \alpha_t)}\epsilon)/\sqrt{\bar \alpha _t}
+x_0 = (x_t - \sqrt{(1-\bar \alpha_t)}\epsilon)/\sqrt{\bar \alpha _t}
 \$\$
 
 Now we decompose $x_0$ as above, and the only value we need to predict is $\epsilon$. Using this representation, eq 7 can be reformed as follows.
