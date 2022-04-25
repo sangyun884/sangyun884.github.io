@@ -111,7 +111,7 @@ Eq. 5 indicates that we can get the score of one distribution given the other tw
 
 \$\$
 \begin{equation}
--\beta_t\nabla_x\log p_t(x) \approx \epsilon_\theta(x_t).
+-\beta\_t\nabla\_x\log p\_t(x) \approx \epsilon\_\theta(x_t).
 \end{equation}
 \$\$
 
