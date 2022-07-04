@@ -14,28 +14,15 @@ My name is Sangyun Lee (이상윤). I am an undergraduate majoring Computer Scie
 
 # News
 
-**[Jul. 2022]** HR-VITON is accepted to ECCV 2022.
-
-**[Dec. 2021]** I started my internship at AI Lab, [Kakao Enterprise](https://www.kakaoenterprise.com/) (Mentor: [Jaehyeon Kim](https://scholar.google.com/citations?user=-ZJaGikAAAAJ&hl=en)).
-
-**[Mar. 2021]** I started my internship at [SI Analytics](https://www.si-analytics.ai/eng) (Mentor: [Kwangjin Yoon](https://scholar.google.co.kr/citations?user=h55SR68AAAAJ&hl=en)).
+- **[Jul. 2022]** HR-VITON is accepted to ECCV 2022.
+- **[Dec. 2021]** I started my internship at AI Lab, [Kakao Enterprise](https://www.kakaoenterprise.com/) (Mentor: [Jaehyeon Kim](https://scholar.google.com/citations?user=-ZJaGikAAAAJ&hl=en)).
+- **[Mar. 2021]** I started my internship at [SI Analytics](https://www.si-analytics.ai/eng) (Mentor: [Kwangjin Yoon](https://scholar.google.co.kr/citations?user=h55SR68AAAAJ&hl=en)).
 
 ---
 
 # Publications
 
-High-Resolution Virtual Try-On width Misalignment and Occlusion-Handled Conditions
+- **Sangyun Lee***, Gyojung Gu*, Sunghyun Park, Seunghwan Choi, and Jaegul Choo, “High-Resolution Virtual Try-On width Misalignment and Occlusion-Handled Conditions”, *European Conference on Computer Vision (ECCV), 2022* [[Abstract](https://arxiv.org/abs/2206.14180)] [[Code](https://github.com/sangyun884/HR-VITON)]
+- **Sangyun Lee**, Sewoong Ahn, Kwangjin Yoon, “Learning Multiple Probabilistic Degradation Generators for Unsupervised Real World Image Super Resolution” *arXiv preprint arXiv:2206.14180.* [[Abstract](https://arxiv.org/abs/2201.10747)]
 
-SangYun Lee*, Gyojung Gu*, Sunghyun Park, Seunghwan Choi, and Jaegul Choo
 
-*European Conference on Computer Vision (ECCV), 2022*
-
-[[Abstract](https://arxiv.org/abs/2206.14180)] [[Code](https://github.com/sangyun884/HR-VITON)]
-
-Learning Multiple Probabilistic Degradation Generators for Unsupervised Real World Image Super Resolution
-
-Sangyun Lee, Sewoong Ahn, Kwangjin Yoon
-
-*arXiv preprint arXiv:2206.14180.*
-
-[[Abstract](https://arxiv.org/abs/2201.10747)]
