@@ -22,7 +22,7 @@ My name is Sangyun Lee (이상윤). I am an undergraduate majoring Computer Scie
 
 # Publications
 
-- **Sangyun Lee**\*, Gyojung Gu*, Sunghyun Park, Seunghwan Choi, and Jaegul Choo, “High-Resolution Virtual Try-On width Misalignment and Occlusion-Handled Conditions”, *European Conference on Computer Vision (ECCV), 2022* [[Abstract](https://arxiv.org/abs/2206.14180)] [[Code](https://github.com/sangyun884/HR-VITON)]
+- **Sangyun Lee**\*, Gyojung Gu\*, Sunghyun Park, Seunghwan Choi, and Jaegul Choo, “High-Resolution Virtual Try-On width Misalignment and Occlusion-Handled Conditions”, *European Conference on Computer Vision (ECCV), 2022* [[Abstract](https://arxiv.org/abs/2206.14180)] [[Code](https://github.com/sangyun884/HR-VITON)]
 - **Sangyun Lee**, Sewoong Ahn, and Kwangjin Yoon, “Learning Multiple Probabilistic Degradation Generators for Unsupervised Real World Image Super Resolution” *arXiv preprint arXiv:2206.14180.* [[Abstract](https://arxiv.org/abs/2201.10747)]
 
 
