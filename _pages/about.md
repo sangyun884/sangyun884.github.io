@@ -13,7 +13,7 @@ My name is Sangyun Lee (이상윤). I am an undergraduate majoring Computer Scie
 ---
 
 # News
-
+- ** [Aug. 2022]** One paper is accepted to ECCV 2022 Learning from Limited and Imperfect Data workshop.
 - **[Jul. 2022]** HR-VITON is accepted to ECCV 2022.
 - **[Dec. 2021]** I started my internship at AI Lab, [Kakao Enterprise](https://www.kakaoenterprise.com/) (Mentor: [Jaehyeon Kim](https://scholar.google.com/citations?user=-ZJaGikAAAAJ&hl=en)).
 - **[Mar. 2021]** I started my internship at [SI Analytics](https://www.si-analytics.ai/eng) (Mentor: [Kwangjin Yoon](https://scholar.google.co.kr/citations?user=h55SR68AAAAJ&hl=en)).
