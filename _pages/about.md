@@ -8,7 +8,7 @@ permalink: /about/
 
 ### [ml.swlee@gmail.com](mailto:ml.swlee@gmail.com)
 
-My name is Sangyun Lee (이상윤). I am an undergraduate majoring Computer Science at [Soongsil University](http://eng.ssu.ac.kr). I was a research intern at [SI Analytics](https://www.si-analytics.ai/eng) and [Kakao Enterprise](https://www.kakaoenterprise.com/) and was advised by Prof. [Jaegul Choo](https://sites.google.com/site/jaegulchoo/). My research interest includes deep generative models, diffusion models and their applications.
+My name is Sangyun Lee (이상윤). I am an undergraduate majoring Computer Science at [Soongsil University](http://eng.ssu.ac.kr). I was a research intern at [SI Analytics](https://www.si-analytics.ai/eng) and [Kakao Enterprise](https://www.kakaoenterprise.com/) and was advised by Professor [Jaegul Choo](https://sites.google.com/site/jaegulchoo/) and Professor [Jong Chul Ye](https://scholar.google.com/citations?user=HNMjoNEAAAAJ&hl=ko). My research interest includes deep generative models, diffusion models and their applications.
 
 ---
 
