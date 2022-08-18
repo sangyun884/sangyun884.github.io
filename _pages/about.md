@@ -21,7 +21,7 @@ My name is Sangyun Lee (이상윤). I am an undergraduate majoring Computer Scie
 ---
 
 # Research
-- **Sangyun Lee**, Hyungjin Chung, Jaehyeon Kim, and ‪Jong Chul Ye, “Progressive Deblurring of Diffusion Models for Coarse-to-Fine Image Synthesis” [[Abstract](https://arxiv.org/abs/2207.11192)] [[code](https://github.com/sangyun884/blur-diffusion)]
+- **Sangyun Lee**, Hyungjin Chung, Jaehyeon Kim, and ‪Jong Chul Ye, “Progressive Deblurring of Diffusion Models for Coarse-to-Fine Image Synthesis”, *arXiv preprint arXiv:2207.11192.* [[Abstract](https://arxiv.org/abs/2207.11192)] [[code](https://github.com/sangyun884/blur-diffusion)]
 - **Sangyun Lee**\*, Gyojung Gu\*, Sunghyun Park, Seunghwan Choi, and Jaegul Choo, “High-Resolution Virtual Try-On with Misalignment and Occlusion-Handled Conditions”, *European Conference on Computer Vision (ECCV), 2022* [[Abstract](https://arxiv.org/abs/2206.14180)] [[Code](https://github.com/sangyun884/HR-VITON)]
 - **Sangyun Lee**, Sewoong Ahn, and Kwangjin Yoon, “Learning Multiple Probabilistic Degradation Generators for Unsupervised Real World Image Super Resolution”, *ECCV'22 Workshop on Learning from Limited and Imperfect Data* [[Abstract](https://arxiv.org/abs/2201.10747)]
 
