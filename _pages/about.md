@@ -27,3 +27,5 @@ My name is Sangyun Lee (이상윤). I am an undergraduate majoring Computer Scie
 
 (\* denotes equal contributions.)
 
+# Patent
+**Sangyun Lee** and Kwangjin Yoon, super resolution imaging method using collaborative learning. Korean Patent 1024062870000, filed Dec 31, 2021, and issued June 2, 2022.
