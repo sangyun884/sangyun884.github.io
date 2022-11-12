@@ -92,7 +92,7 @@ where $\Sigma$ is a covariance matrix of $p_\theta(x_t\vert x_{t+1})$ and $s$ is
 \end{equation}
 \$\$
 
-where $\beta_t$ is $t$-th variance of noise schedule. Note that Eq. 2 and Eq. 3 are same except for the coefficient of the score. 
+where $\beta_t$ is $t$-th variance of the perturbation kernel $q(\mathbf x_t \vert \mathbf x_0$). Note that Eq. 2 and Eq. 3 are same except for the coefficient of the score. 
 
 Song et al. [11] showed that we could obtain the score of a conditional generative model given the scores of a classifier and unconditional generative model. This is demonstrated by applying Bayes’ rule to the log probability of the classifier.
 
