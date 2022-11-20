@@ -16,9 +16,9 @@ Since OpenAI announced DALLE-2, the attention on diffusion-based text-conditiona
 
 Text-guided image manipulation is the task of modifying an image based on a given text prompt. As shown in the image above, we can change the topping of the pizza, make it to be a chocolate chip cookie, or perform a style transfer.
 
-![Untitled](../images/2022-04-25-recent-trends-in-diffusion-based-text-conditional/Untitled%202.png)
+![Untitled](../images/2022-04-25-recent-trends-in-diffusion-based-text-conditional/Untitled%202_.png)
 
-The studies that utilize pre-trained GAN for image manipulation can be sorted into the methods that perform latent optimization (w-learner) [1] and the methods that perform generator optimization (G-learner) [2]. The idea is basically that we can generate an image consistent with a given text prompt by optimizing either the latent vector or generator itself to maximize the similarity $S$ between the text and the image. Unlike the w-learner that performs latent space exploration only, G-learner changes the distribution of the generator, making it possible to generate the images in the unseen domain that are not included in the training set. However, GAN-inversion is needed to apply these approaches for real image editing.
+The studies that utilize pre-trained GAN for image manipulation can be sorted into the methods that perform latent optimization (w-learner) [1] and the methods that perform generator optimization (G-learner) [2]. The idea is basically that we can generate an image consistent with a given text prompt by optimizing either the latent vector or generator itself to maximize the similarity $\mathbf S$ between the text and the image. Unlike the w-learner that performs latent space exploration only, G-learner changes the distribution of the generator, making it possible to generate the images in the unseen domain that are not included in the training set. However, GAN-inversion is needed to apply these approaches for real image editing.
 
 ### The cons
 
@@ -28,7 +28,7 @@ The studies that utilize pre-trained GAN for image manipulation can be sorted in
 
 # DiffusionCLIP
 
-![Untitled](../images/2022-04-25-recent-trends-in-diffusion-based-text-conditional/Untitled%203.png)
+![Untitled](../images/2022-04-25-recent-trends-in-diffusion-based-text-conditional/Untitled%203_.png)
 
 Drawbacks of GAN-based manipulation methods include the error in GAN inversion and the limited performance of GANs on complex datasets. It is known that DDIM allows deterministic sampling of diffusion models, and nearly perfect inversion can be achieved by inverting the generative ODE [6]. Furthermore, diffusion models tend to perform better on complex datasets than GANs. DiffusionCLIP [3] exploits these advantages. They fine-tune the parameters of ODE to maximize the CLIP similarity between a text and an image, which is similar to G-learner in GAN-based manipulation methods, allowing translation to out-of-domain.
 
@@ -42,7 +42,7 @@ Text-conditional generation can be performed by utilizing CLIP guidance to guide
 
 \$\$
 \begin{equation}
-\hat \mu_\theta (x_t) = \mu_\theta(x_t) + s\Sigma\nabla x_t( I(x_t)\cdot T(c)).
+\hat \mu_\theta (x_t) = \mu_\theta(x_t) + s\Sigma\nabla x_t \mathbf S( I(x_t), T(c)).
 \end{equation}
 \$\$
 
