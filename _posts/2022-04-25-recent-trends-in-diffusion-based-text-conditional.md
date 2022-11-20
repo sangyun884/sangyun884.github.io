@@ -18,7 +18,7 @@ Text-guided image manipulation is the task of modifying an image based on a give
 
 ![Untitled](../images/2022-04-25-recent-trends-in-diffusion-based-text-conditional/Untitled%202.png)
 
-The studies that utilize pre-trained GAN for image manipulation can be sorted into the methods that perform latent optimization (w-learner) [1] and the methods that perform generator optimization (G-learner) [2]. The idea is basically that we can generate an image consistent with a given text prompt by optimizing either the latent vector or generator itself to maximize the similarity $s$ between the text and the image. Unlike the w-learner that performs latent space exploration only, G-learner changes the distribution of the generator, making it possible to generate the images in the unseen domain that are not included in the training set. However, GAN-inversion is needed to apply these approaches for real image editing.
+The studies that utilize pre-trained GAN for image manipulation can be sorted into the methods that perform latent optimization (w-learner) [1] and the methods that perform generator optimization (G-learner) [2]. The idea is basically that we can generate an image consistent with a given text prompt by optimizing either the latent vector or generator itself to maximize the similarity $S$ between the text and the image. Unlike the w-learner that performs latent space exploration only, G-learner changes the distribution of the generator, making it possible to generate the images in the unseen domain that are not included in the training set. However, GAN-inversion is needed to apply these approaches for real image editing.
 
 ### The cons
 
