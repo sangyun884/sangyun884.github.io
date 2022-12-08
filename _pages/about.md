@@ -32,11 +32,13 @@ Contact: ml.swlee@gmail.com
 ## [Modulabs](https://modulabs.co.kr/) (2022.11.24 ~ 2022.12.08)
 - A Unified Framework for 
 Diffusion Models
- [Slide](https://docs.google.com/presentation/d/1sI3cZ0EzWuqMHhuI3bPSnksDKJon9BJy_WCaFB4Kpgo/edit?usp=sharing) Videos (Korean, coming soon)
+ [[Slide]](https://docs.google.com/presentation/d/1sI3cZ0EzWuqMHhuI3bPSnksDKJon9BJy_WCaFB4Kpgo/edit?usp=sharing)
  - Diffusion Models for
 Conditional Generation
- [Slide](https://docs.google.com/presentation/d/1VQvMsZI6S-LLg-RsNEyR_NRaiFgiX3fW2lhUGdS7pEE/edit?usp=sharing) Videos (Korean, coming soon)
- - Diffusion Models Everywhere [Slide](https://docs.google.com/presentation/d/1FNRmL8wS0jKLi3Uk_QdxyAP75i9pYEqFxhHhma4Slq8/edit?usp=sharing) Videos (Korean, coming soon)
+ [[Slide]](https://docs.google.com/presentation/d/1VQvMsZI6S-LLg-RsNEyR_NRaiFgiX3fW2lhUGdS7pEE/edit?usp=sharing) 
+ - Diffusion Models Everywhere [[Slide]](https://docs.google.com/presentation/d/1FNRmL8wS0jKLi3Uk_QdxyAP75i9pYEqFxhHhma4Slq8/edit?usp=sharing)
+ 
+ Videos coming soon.
  
 # Patent
 **Sangyun Lee** and Kwangjin Yoon, super resolution imaging method using collaborative learning. Korean Patent 1024062870000, filed Dec 31, 2021, and issued June 2, 2022.
