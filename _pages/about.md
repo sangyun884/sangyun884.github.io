@@ -29,7 +29,7 @@ Contact: ml.swlee@gmail.com
 (\* denotes equal contributions.)
 
 # Invited Talk
-## Modulabs (2022.11.24 ~ 2022.12.08)
+## [Modulabs](https://modulabs.co.kr/) (2022.11.24 ~ 2022.12.08)
 - A Unified Framework for 
 Diffusion Models
  [Slide](https://docs.google.com/presentation/d/1sI3cZ0EzWuqMHhuI3bPSnksDKJon9BJy_WCaFB4Kpgo/edit?usp=sharing) Videos (Korean, coming soon)
