@@ -7,7 +7,7 @@ permalink: /about/
 
 [GitHub](https://github.com/sangyun884/) [Twitter](https://twitter.com/sang_yun_lee) [Google Scholar](https://scholar.google.co.kr/citations?user=CGFkx-IAAAAJ&hl=ko)
 
-My name is Sangyun Lee (이상윤). I am an undergraduate majoring Computer Science at [Soongsil University](http://eng.ssu.ac.kr). I was a research intern at [SI Analytics](https://www.si-analytics.ai/eng) and [Kakao Enterprise](https://www.kakaoenterprise.com/) and was advised by Professor [Jaegul Choo](https://sites.google.com/site/jaegulchoo/) and Professor [Jong Chul Ye](https://scholar.google.com/citations?user=HNMjoNEAAAAJ&hl=ko). My goal is to build a generative model that can generate high-fidelity, diverse high-dimensional samples such as videos in a single forward pass. Currently, I'm working on diffusion models.
+I am currently pursuing a Bachelor's degree in Computer Science at [Soongsil University](http://eng.ssu.ac.kr). My goal is to develop powerful generative models for a variety of applications, including representation learning, inverse problems, and reasoning. For that, I aim to build a generative model that can synthesize high-fidelity, diverse high-dimensional samples such as videos in a *single forward pass*. Previously, I was a research intern at [SI Analytics](https://www.si-analytics.ai/eng) and [Kakao Enterprise](https://www.kakaoenterprise.com/), and I was advised by Professor [Jaegul Choo](https://sites.google.com/site/jaegulchoo/) and Professor [Jong Chul Ye](https://scholar.google.com/citations?user=HNMjoNEAAAAJ&hl=ko).
 
 Contact: ml.swlee@gmail.com
 ---
