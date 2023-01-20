@@ -13,6 +13,7 @@ Contact: ml.swlee@gmail.com
 ---
 
 # News
+- **[Jan. 2023]** I will start my internship at [NAVER AI Lab](https://clova.ai/en/research/research-area-detail.html?id=0).
 - **[Oct. 2022]** Blur diffusion is accepted to NeurIPS 2022 Workshop on Score-Based Methods.
 - **[Aug. 2022]** MSSR is accepted to ECCV'22 Workshop on Learning from Limited and Imperfect Data.
 - **[Jul. 2022]** HR-VITON is accepted to ECCV 2022.
