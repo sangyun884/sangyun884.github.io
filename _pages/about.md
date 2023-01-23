@@ -39,7 +39,6 @@ Conditional Generation
  [[Slide]](https://docs.google.com/presentation/d/1VQvMsZI6S-LLg-RsNEyR_NRaiFgiX3fW2lhUGdS7pEE/edit?usp=sharing)  [[Video]](https://youtu.be/Ec569AV6YD8)
  - Diffusion Models Everywhere [[Slide]](https://docs.google.com/presentation/d/1FNRmL8wS0jKLi3Uk_QdxyAP75i9pYEqFxhHhma4Slq8/edit?usp=sharing) [[Video]](https://youtu.be/xVjrS-n9o68)
  
- Videos coming soon.
  
 # Patent
 **Sangyun Lee** and Kwangjin Yoon, super resolution imaging method using collaborative learning. Korean Patent 1024062870000, filed Dec 31, 2021, and issued June 2, 2022.
