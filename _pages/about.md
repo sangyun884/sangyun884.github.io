@@ -9,7 +9,7 @@ permalink: /about/
 
 I am an incoming Ph.D. student at [Carnegie Mellon University](https://www.cmu.edu/) starting from Fall 2023. I am currently pursuing a Bachelor's degree in Computer Science at [Soongsil University](http://eng.ssu.ac.kr). Previously, I was a research intern at [SI Analytics](https://www.si-analytics.ai/eng), [Kakao Enterprise](https://www.kakaoenterprise.com/), and [NAVER AI Lab](https://clova.ai/en/research/research-area-detail.html?id=0). During my undergraduate years, I was fortunated to be advised by Professor [Jaegul Choo](https://sites.google.com/site/jaegulchoo/) and Professor [Jong Chul Ye](https://scholar.google.com/citations?user=HNMjoNEAAAAJ&hl=ko).
 
-**Research interest.** My goal is to develop powerful generative models and apply them to various applications, including representation learning, inverse problems, and reasoning. For that, I aim to build a generative model that can synthesize high-fidelity, diverse high-dimensional samples such as videos in a *single forward pass*.
+**Research interest.** My goal is to develop powerful generative models and apply them to various applications, including disentangled representation learning, conditional sampling, and reasoning. For that, I currently aim to build a generative model that can synthesize high-fidelity, diverse high-dimensional samples such as videos in a *single forward pass*.
 
 Contact: ml.swlee@gmail.com
 ---
