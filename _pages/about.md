@@ -11,7 +11,7 @@ I am an incoming Ph.D. student at [Carnegie Mellon University](https://www.cmu.e
 
 **Research interest.** My goal is to develop powerful generative models and apply them to various applications, including disentangled representation learning, conditional sampling, and reasoning. For that, I currently aim to build a generative model that can synthesize high-fidelity, diverse high-dimensional samples such as videos in a *single forward pass*.
 
-Contact: ml.swlee@gmail.com
+Contact: sangyunl@andrew.cmu.edu
 ---
 
 # News
