@@ -15,6 +15,7 @@ Contact: sangyunl@andrew.cmu.edu
 ---
 
 # News
+- **[Jun. 2023]** One paper is accepted to ICML 2023 SPIGM Workshop (will be available soon).
 - **[Apr. 2023]** One paper is accepted to ICML.
 - **[Apr. 2023]** I will be joining CMU ECE as a Ph.D. student in Fall 2023.
 - **[Jan. 2023]** I will start my internship at [NAVER AI Lab](https://clova.ai/en/research/research-area-detail.html?id=0).
