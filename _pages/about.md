@@ -28,6 +28,7 @@ Contact: sangyunl@andrew.cmu.edu
 ---
 
 # Research
+- **Sangyun Lee**, Gayoung Lee, Hyunsu Kim, Junho Kim, and Youngjung Uh, “Diffusion Models with Grouped Latents for Interpretable Latent Space”, *ICML 2023 Workshop on Structured Probabilistic Inference & Generative Modeling* 
 - **Sangyun Lee**, Beomsu Kim, and Jong Chul Ye, “Minimizing Trajectory Curvature of ODE-based Generative Models”, *ICML 2023* [[Abstract](https://arxiv.org/abs/2301.12003)] [[Code](https://github.com/sangyun884/fast-ode)]
 - **Sangyun Lee**, Hyungjin Chung, Jaehyeon Kim, and ‪Jong Chul Ye, “Progressive Deblurring of Diffusion Models for Coarse-to-Fine Image Synthesis”, *NeurIPS 2022 Workshop on Score-Based Methods* [[Abstract](https://arxiv.org/abs/2207.11192)] [[code](https://github.com/sangyun884/blur-diffusion)]
 - **Sangyun Lee**\*, Gyojung Gu\*, Sunghyun Park, Seunghwan Choi, and Jaegul Choo, “High-Resolution Virtual Try-On with Misalignment and Occlusion-Handled Conditions”, *European Conference on Computer Vision (ECCV), 2022* [[Abstract](https://arxiv.org/abs/2206.14180)] [[Code](https://github.com/sangyun884/HR-VITON)]
