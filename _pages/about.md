@@ -7,9 +7,9 @@ permalink: /about/
 
 [GitHub](https://github.com/sangyun884/) [Twitter](https://twitter.com/sang_yun_lee) [Google Scholar](https://scholar.google.co.kr/citations?user=CGFkx-IAAAAJ&hl=ko)
 
-I am an incoming Ph.D. student at [Carnegie Mellon University](https://www.cmu.edu/) starting from Fall 2023. I am currently pursuing a Bachelor's degree in Computer Science at [Soongsil University](http://eng.ssu.ac.kr). Previously, I was a research intern at [SI Analytics](https://www.si-analytics.ai/eng), [Kakao Enterprise](https://www.kakaoenterprise.com/), and [NAVER AI Lab](https://clova.ai/en/research/research-area-detail.html?id=0). During my undergraduate years, I was fortunated to be advised by Professor [Jaegul Choo](https://sites.google.com/site/jaegulchoo/) and Professor [Jong Chul Ye](https://scholar.google.com/citations?user=HNMjoNEAAAAJ&hl=ko).
+I am an incoming ECE Ph.D. student at [Carnegie Mellon University](https://www.cmu.edu/) starting from Fall 2023. I am currently pursuing a Bachelor's degree in Computer Science at [Soongsil University](http://eng.ssu.ac.kr). Previously, I was a research intern at [SI Analytics](https://www.si-analytics.ai/eng), [Kakao Enterprise](https://www.kakaoenterprise.com/), and [NAVER AI Lab](https://clova.ai/en/research/research-area-detail.html?id=0). During my undergraduate years, I was fortunated to be advised by Professor [Jaegul Choo](https://sites.google.com/site/jaegulchoo/) and Professor [Jong Chul Ye](https://scholar.google.com/citations?user=HNMjoNEAAAAJ&hl=ko).
 
-**Research interest.** My goal is to develop powerful generative models and apply them to various applications, including disentangled representation learning, conditional sampling, and reasoning. For that, I currently aim to build a generative model that can synthesize high-fidelity, diverse high-dimensional samples such as videos in a *single forward pass*.
+**Research interest.** My goal is to develop powerful generative models and apply them to various applications including conditional sampling and planning. For that, I currently aim to build a generative model that can synthesize high-dimensional data such as videos in a *single forward pass*.
 
 Contact: sangyunl@andrew.cmu.edu
 ---
@@ -18,7 +18,7 @@ Contact: sangyunl@andrew.cmu.edu
 - **[Jun. 2023]** One paper is accepted to ICML 2023 SPIGM Workshop (will be available soon).
 - **[Apr. 2023]** One paper is accepted to ICML.
 - **[Apr. 2023]** I will be joining CMU ECE as a Ph.D. student in Fall 2023.
-- **[Jan. 2023]** I will start my internship at [NAVER AI Lab](https://clova.ai/en/research/research-area-detail.html?id=0).
+- **[Jan. 2023]** I will start my internship at [NAVER AI Lab](https://clova.ai/en/research/research-area-detail.html?id=0) (Mentor: [Junho Kim](https://scholar.google.co.kr/citations?user=WtjDugkAAAAJ&hl=en)).
 - **[Oct. 2022]** Blur diffusion is accepted to NeurIPS 2022 Workshop on Score-Based Methods.
 - **[Aug. 2022]** MSSR is accepted to ECCV'22 Workshop on Learning from Limited and Imperfect Data.
 - **[Jul. 2022]** HR-VITON is accepted to ECCV 2022.
