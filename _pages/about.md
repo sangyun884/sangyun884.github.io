@@ -7,7 +7,7 @@ permalink: /about/
 
 [GitHub](https://github.com/sangyun884/) [Twitter](https://twitter.com/sang_yun_lee) [Google Scholar](https://scholar.google.co.kr/citations?user=CGFkx-IAAAAJ&hl=ko)
 
-I'm a first-year ECE Ph.D. student at [Carnegie Mellon University](https://www.cmu.edu/) starting from Fall 2023. I obtained my Bachelor’s degree in Computer Science at [Soongsil University](http://eng.ssu.ac.kr). During my undergraduate years, I worked with Professors [Jaegul Choo](https://sites.google.com/site/jaegulchoo/) and [Jong Chul Ye](https://scholar.google.com/citations?user=HNMjoNEAAAAJ&hl=ko). Previously, I was a research intern at [SI Analytics](https://www.si-analytics.ai/eng), [Kakao Enterprise](https://www.kakaoenterprise.com/), and [NAVER AI Lab](https://clova.ai/en/research/research-area-detail.html?id=0).
+I'm a first-year ECE Ph.D. student at [Carnegie Mellon University](https://www.cmu.edu/). I obtained my Bachelor’s degree in Computer Science at [Soongsil University](http://eng.ssu.ac.kr). During my undergraduate years, I worked with Professors [Jaegul Choo](https://sites.google.com/site/jaegulchoo/) and [Jong Chul Ye](https://scholar.google.com/citations?user=HNMjoNEAAAAJ&hl=ko). Previously, I was a research intern at [SI Analytics](https://www.si-analytics.ai/eng), [Kakao Enterprise](https://www.kakaoenterprise.com/), and [NAVER AI Lab](https://clova.ai/en/research/research-area-detail.html?id=0).
 
 **Research interest.** My goal is to develop powerful generative models and apply them to various applications including conditional sampling and planning. For that, I currently aim to build a generative model that can synthesize high-dimensional data such as videos in a *single forward pass*.
 
@@ -40,11 +40,11 @@ Contact: sangyunl@andrew.cmu.edu
 ## [Modulabs](https://modulabs.co.kr/) (2022.11.24 ~ 2022.12.08)
 - A Unified Framework for 
 Diffusion Models
- [[Slide]](https://docs.google.com/presentation/d/1sI3cZ0EzWuqMHhuI3bPSnksDKJon9BJy_WCaFB4Kpgo/edit?usp=sharing) [[Video]](https://youtu.be/KzrdkZUrbPk)
+ [[Slide]](https://docs.google.com/presentation/d/1sI3cZ0EzWuqMHhuI3bPSnksDKJon9BJy_WCaFB4Kpgo/edit?usp=sharing) [[Video (Korean)] ](https://youtu.be/KzrdkZUrbPk)
  - Diffusion Models for
 Conditional Generation
- [[Slide]](https://docs.google.com/presentation/d/1VQvMsZI6S-LLg-RsNEyR_NRaiFgiX3fW2lhUGdS7pEE/edit?usp=sharing)  [[Video]](https://youtu.be/Ec569AV6YD8)
- - Diffusion Models Everywhere [[Slide]](https://docs.google.com/presentation/d/1FNRmL8wS0jKLi3Uk_QdxyAP75i9pYEqFxhHhma4Slq8/edit?usp=sharing) [[Video]](https://youtu.be/xVjrS-n9o68)
+ [[Slide]](https://docs.google.com/presentation/d/1VQvMsZI6S-LLg-RsNEyR_NRaiFgiX3fW2lhUGdS7pEE/edit?usp=sharing)  [[Video (Korean)]](https://youtu.be/Ec569AV6YD8)
+ - Diffusion Models Everywhere [[Slide]](https://docs.google.com/presentation/d/1FNRmL8wS0jKLi3Uk_QdxyAP75i9pYEqFxhHhma4Slq8/edit?usp=sharing) [[Video (Korean)]](https://youtu.be/xVjrS-n9o68)
  
  
 # Patent
