@@ -19,12 +19,6 @@ Contact: sangyunl@andrew.cmu.edu
 - **[Apr. 2023]** One paper is accepted to ICML.
 - **[Apr. 2023]** I will be joining CMU ECE as a Ph.D. student in Fall 2023.
 - **[Jan. 2023]** I will start my internship at [NAVER AI Lab](https://clova.ai/en/research/research-area-detail.html?id=0) (Mentor: [Junho Kim](https://scholar.google.co.kr/citations?user=WtjDugkAAAAJ&hl=en)).
-- **[Oct. 2022]** Blur diffusion is accepted to NeurIPS 2022 Workshop on Score-Based Methods.
-- **[Aug. 2022]** MSSR is accepted to ECCV'22 Workshop on Learning from Limited and Imperfect Data.
-- **[Jul. 2022]** HR-VITON is accepted to ECCV 2022.
-- **[Dec. 2021]** I started my internship at AI Lab, [Kakao Enterprise](https://www.kakaoenterprise.com/) (Mentor: [Jaehyeon Kim](https://scholar.google.com/citations?user=-ZJaGikAAAAJ&hl=en)).
-- **[Mar. 2021]** I started my internship at [SI Analytics](https://www.si-analytics.ai/eng) (Mentor: [Kwangjin Yoon](https://scholar.google.co.kr/citations?user=h55SR68AAAAJ&hl=en)).
-
 ---
 
 # Research
