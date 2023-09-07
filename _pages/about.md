@@ -19,6 +19,7 @@ Contact: sangyunl@andrew.cmu.edu
 - **[Apr. 2023]** One paper is accepted to ICML.
 - **[Apr. 2023]** I will be joining CMU ECE as a Ph.D. student in Fall 2023.
 - **[Jan. 2023]** I will start my internship at [NAVER AI Lab](https://clova.ai/en/research/research-area-detail.html?id=0) (Mentor: [Junho Kim](https://scholar.google.co.kr/citations?user=WtjDugkAAAAJ&hl=en)).
+  
 ---
 
 # Research
