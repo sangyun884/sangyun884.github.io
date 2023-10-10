@@ -9,20 +9,20 @@ permalink: /about/
 
 I'm a first-year ECE Ph.D. student at [Carnegie Mellon University](https://www.cmu.edu/). I obtained my Bachelor’s degree in Computer Science at [Soongsil University](http://eng.ssu.ac.kr). During my undergraduate years, I worked with Professors [Jaegul Choo](https://sites.google.com/site/jaegulchoo/) and [Jong Chul Ye](https://scholar.google.com/citations?user=HNMjoNEAAAAJ&hl=ko). Previously, I was a research intern at [SI Analytics](https://www.si-analytics.ai/eng), [Kakao Enterprise](https://www.kakaoenterprise.com/), and [NAVER AI Lab](https://clova.ai/en/research/research-area-detail.html?id=0).
 
-**Research interest.** My goal is to develop powerful generative models and apply them to various applications including conditional sampling and planning. For that, I currently aim to build a generative model that can synthesize high-dimensional data such as videos in a *single forward pass*.
+**Research interest.** I work on deep generative modeling and its various applications. In particular, I focus on developing generative models that are scalable and easy to sample from.
 
 Contact: sangyunl@andrew.cmu.edu
 ---
 
 # News
-- **[Jun. 2023]** One paper is accepted to ICML 2023 SPIGM Workshop (will be available soon).
+- **[Jun. 2023]** One paper is accepted to ICML 2023 SPIGM Workshop.
 - **[Apr. 2023]** One paper is accepted to ICML.
 - **[Apr. 2023]** I will be joining CMU ECE as a Ph.D. student in Fall 2023.
 - **[Jan. 2023]** I will start my internship at [NAVER AI Lab](https://clova.ai/en/research/research-area-detail.html?id=0) (Mentor: [Junho Kim](https://scholar.google.co.kr/citations?user=WtjDugkAAAAJ&hl=en)).
 ---
 
 # Research
-- **Sangyun Lee**, Gayoung Lee, Hyunsu Kim, Junho Kim, and Youngjung Uh, “Diffusion Models with Grouped Latents for Interpretable Latent Space”, *ICML 2023 Workshop on Structured Probabilistic Inference & Generative Modeling*  [[Abstract](https://openreview.net/forum?id=hLeh6b0vlt)]
+- **Sangyun Lee**, Gayoung Lee, Hyunsu Kim, Junho Kim, and Youngjung Uh, “Diffusion Models with Grouped Latents for Interpretable Latent Space”, *ICML 2023 Workshop on Structured Probabilistic Inference & Generative Modeling*  [[Abstract](https://arxiv.org/abs/2310.01400)]
 - **Sangyun Lee**, Beomsu Kim, and Jong Chul Ye, “Minimizing Trajectory Curvature of ODE-based Generative Models”, *ICML 2023* [[Abstract](https://arxiv.org/abs/2301.12003)] [[Code](https://github.com/sangyun884/fast-ode)]
 - **Sangyun Lee**, Hyungjin Chung, Jaehyeon Kim, and ‪Jong Chul Ye, “Progressive Deblurring of Diffusion Models for Coarse-to-Fine Image Synthesis”, *NeurIPS 2022 Workshop on Score-Based Methods* [[Abstract](https://arxiv.org/abs/2207.11192)] [[code](https://github.com/sangyun884/blur-diffusion)]
 - **Sangyun Lee**\*, Gyojung Gu\*, Sunghyun Park, Seunghwan Choi, and Jaegul Choo, “High-Resolution Virtual Try-On with Misalignment and Occlusion-Handled Conditions”, *ECCV 2022* [[Abstract](https://arxiv.org/abs/2206.14180)] [[Code](https://github.com/sangyun884/HR-VITON)]
