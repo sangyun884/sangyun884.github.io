@@ -7,7 +7,7 @@ permalink: /about/
 
 [GitHub](https://github.com/sangyun884/) [Twitter](https://twitter.com/sang_yun_lee) [Google Scholar](https://scholar.google.co.kr/citations?user=CGFkx-IAAAAJ&hl=ko)
 
-I'm a first-year ECE Ph.D. student at [Carnegie Mellon University](https://www.cmu.edu/). I obtained my Bachelor’s degree in Computer Science at [Soongsil University](http://eng.ssu.ac.kr). During my undergraduate years, I worked with Professors [Jaegul Choo](https://sites.google.com/site/jaegulchoo/) and [Jong Chul Ye](https://scholar.google.com/citations?user=HNMjoNEAAAAJ&hl=ko). Previously, I was a research intern at [SI Analytics](https://www.si-analytics.ai/eng), [Kakao Enterprise](https://www.kakaoenterprise.com/), and [NAVER AI Lab](https://clova.ai/en/research/research-area-detail.html?id=0).
+I'm a first-year ECE Ph.D. student at [Carnegie Mellon University](https://www.cmu.edu/) advised by [Giulia Fanti](https://gfanti.github.io/website/). I obtained my Bachelor’s degree in Computer Science at [Soongsil University](http://eng.ssu.ac.kr). During my undergraduate years, I worked with Professors [Jaegul Choo](https://sites.google.com/site/jaegulchoo/) and [Jong Chul Ye](https://scholar.google.com/citations?user=HNMjoNEAAAAJ&hl=ko). Previously, I was a research intern at [SI Analytics](https://www.si-analytics.ai/eng), [Kakao Enterprise](https://www.kakaoenterprise.com/), and [NAVER AI Lab](https://clova.ai/en/research/research-area-detail.html?id=0).
 
 **Research interest.** I work on deep generative modeling and its various applications. In particular, I focus on developing generative models that are scalable and easy to sample from.
 
