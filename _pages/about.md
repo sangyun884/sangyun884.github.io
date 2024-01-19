@@ -15,10 +15,10 @@ Contact: sangyunl@andrew.cmu.edu
 ---
 
 # News
+- **[Jan. 2024]** I will start my internship at NVIDIA this summer (Host: [Arash Vahdat](http://latentspace.cc/))
 - **[Jun. 2023]** One paper is accepted to ICML 2023 SPIGM Workshop.
 - **[Apr. 2023]** One paper is accepted to ICML.
 - **[Apr. 2023]** I will be joining CMU ECE as a Ph.D. student in Fall 2023.
-- **[Jan. 2023]** I will start my internship at [NAVER AI Lab](https://clova.ai/en/research/research-area-detail.html?id=0) (Mentor: [Junho Kim](https://scholar.google.co.kr/citations?user=WtjDugkAAAAJ&hl=en)).
   
 ---
 
