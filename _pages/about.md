@@ -16,11 +16,13 @@ I'm Sangyun Lee (pronounced as "Sang-Yoon"), a first-year Ph.D. student in Elect
   <a href="https://scholar.google.co.kr/citations?user=CGFkx-IAAAAJ&hl=en" style="display: inline-block; padding: 8px 12px; background-color: #4285F4; color: white; text-decoration: none; border-radius: 5px; font-weight: bold; transition: background-color 0.3s;">Google Scholar</a>
 </div>
 
+```
+Contact: sangyunl@andrew.cmu.edu
+```
+
 ## Research Interest
 
 I work on deep generative modeling and its various applications. In particular, I focus on developing generative models that are scalable and easy to sample from.
-
-**Contact:** sangyunl@andrew.cmu.edu
 
 ## News
 
