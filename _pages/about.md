@@ -1,11 +1,10 @@
 ---
 layout: single
 permalink: /about/
-title: "About Me"
+title: "Sangyun Lee"
 author_profile: true
 ---
 
-# Sangyun Lee
 <img src="../images/profile2.png" alt="Sangyun Lee" style="width: 230px; float: right; border-radius: 50%; margin-left: 20px;">
 
 
@@ -31,38 +30,101 @@ I work on deep generative modeling and its various applications. In particular, 
 - **[Apr. 2023]** I will be joining CMU ECE as a Ph.D. student in Fall 2023.
 
 ## Research
-
-<div class="research-list-cards" markdown="1">
-
-- **Improving the Training of Rectified Flows**  
-  <u>Sangyun Lee</u>, Zinan Lin, Giulia Fanti  
-  *arxiv preprint*  
-  [[Abstract]](https://arxiv.org/abs/2405.20320) [[Code]](https://github.com/sangyun884/rfpp)
-
-- **Sequential Data Generation with Groupwise Diffusion Process**  
-  <u>Sangyun Lee</u>, Gayoung Lee, Hyunsu Kim, Junho Kim, Youngjung Uh  
-   *arxiv preprint, also appeared at [ICML 2023 Workshop on Structured Probabilistic Inference & Generative Modeling](https://openreview.net/forum?id=hLeh6b0vlt#all)*  
-  [[Abstract]](https://arxiv.org/abs/2310.01400)
-
-- **Minimizing Trajectory Curvature of ODE-based Generative Models**  
-  <u>Sangyun Lee</u>, Beomsu Kim, Jong Chul Ye  
-  *ICML 2023*  
-  [[Abstract]](https://arxiv.org/abs/2301.12003) [[Code]](https://github.com/sangyun884/fast-ode)
-
-- **Progressive Deblurring of Diffusion Models for Coarse-to-Fine Image Synthesis**  
-  <u>Sangyun Lee</u>, Hyungjin Chung, Jaehyeon Kim, Jong Chul Ye  
-  *NeurIPS 2022 Workshop on Score-Based Methods*  
-  [[Abstract]](https://arxiv.org/abs/2207.11192) [[Code]](https://github.com/sangyun884/blur-diffusion)
-
-- **High-Resolution Virtual Try-On with Misalignment and Occlusion-Handled Conditions**  
-  <u>Sangyun Lee</u>*, Gyojung Gu*, Sunghyun Park, Seunghwan Choi, Jaegul Choo  
-  *ECCV 2022*  
-  [[Abstract]](https://arxiv.org/abs/2206.14180) [[Code]](https://github.com/sangyun884/HR-VITON)
-
-- **Learning Multiple Probabilistic Degradation Generators for Unsupervised Real World Image Super Resolution**  
-  <u>Sangyun Lee</u>, Sewoong Ahn, Kwangjin Yoon  
-  *ECCV 2022 Workshop on Learning from Limited and Imperfect Data*  
-  [[Abstract]](https://arxiv.org/abs/2201.10747)
+<div class="research-list">
+<div class="research-item">
+  <h3>Improving the Training of Rectified Flows</h3>
+  <p><u>Sangyun Lee</u>, Zinan Lin, Giulia Fanti</p>
+  <p><em>arxiv preprint</em></p>
+  <div class="research-links">
+    <a href="https://arxiv.org/abs/2405.20320">Abstract</a>
+    <a href="https://github.com/sangyun884/rfpp">Code</a>
+  </div>
+</div>
+<div class="research-item">
+  <h3>Sequential Data Generation with Groupwise Diffusion Process</h3>
+  <p><u>Sangyun Lee</u>, Gayoung Lee, Hyunsu Kim, Junho Kim, Youngjung Uh</p>
+  <p><em>arxiv preprint, also appeared at <a href="https://openreview.net/forum?id=hLeh6b0vlt#all">ICML 2023 Workshop on Structured Probabilistic Inference & Generative Modeling</a></em></p>
+  <div class="research-links">
+    <a href="https://arxiv.org/abs/2310.01400">Abstract</a>
+  </div>
+</div>
+<div class="research-item">
+  <h3>Minimizing Trajectory Curvature of ODE-based Generative Models</h3>
+  <p><u>Sangyun Lee</u>, Beomsu Kim, Jong Chul Ye</p>
+  <p><em>ICML 2023</em></p>
+  <div class="research-links">
+    <a href="https://arxiv.org/abs/2301.12003">Abstract</a>
+    <a href="https://github.com/sangyun884/fast-ode">Code</a>
+  </div>
+</div>
+<div class="research-item">
+  <h3>Progressive Deblurring of Diffusion Models for Coarse-to-Fine Image Synthesis</h3>
+  <p><u>Sangyun Lee</u>, Hyungjin Chung, Jaehyeon Kim, Jong Chul Ye</p>
+  <p><em>NeurIPS 2022 Workshop on Score-Based Methods</em></p>
+  <div class="research-links">
+    <a href="https://arxiv.org/abs/2207.11192">Abstract</a>
+    <a href="https://github.com/sangyun884/blur-diffusion">Code</a>
+  </div>
+</div>
+<div class="research-item">
+  <h3>High-Resolution Virtual Try-On with Misalignment and Occlusion-Handled Conditions</h3>
+  <p><u>Sangyun Lee</u>*, Gyojung Gu*, Sunghyun Park, Seunghwan Choi, Jaegul Choo</p>
+  <p><em>ECCV 2022</em></p>
+  <div class="research-links">
+    <a href="https://arxiv.org/abs/2206.14180">Abstract</a>
+    <a href="https://github.com/sangyun884/HR-VITON">Code</a>
+  </div>
+</div>
+<div class="research-item">
+  <h3>Learning Multiple Probabilistic Degradation Generators for Unsupervised Real World Image Super Resolution</h3>
+  <p><u>Sangyun Lee</u>, Sewoong Ahn, Kwangjin Yoon</p>
+  <p><em>ECCV 2022 Workshop on Learning from Limited and Imperfect Data</em></p>
+  <div class="research-links">
+    <a href="https://arxiv.org/abs/2201.10747">Abstract</a>
+  </div>
+</div>
+</div>
+<p><em>(* denotes equal contributions.)</em></p>
+<style>
+  .research-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  .research-item {
+    border: 1px solid var(--text-color);
+    border-radius: 8px;
+    padding: 1rem;
+    transition: border-color 0.3s ease;
+  }
+  .research-item:hover {
+    border-color: var(--link-color);
+  }
+  .research-item h3 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+  }
+  .research-item p {
+    margin: 0.25rem 0;
+  }
+  .research-links {
+    margin-top: 0.5rem;
+  }
+  .research-links a {
+    display: inline-block;
+    margin-right: 0.5rem;
+    padding: 0.25rem 0.5rem;
+    background-color: var(--link-color);
+    color: var(--background-color);
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 0.9em;
+    transition: background-color 0.3s ease;
+  }
+  .research-links a:hover {
+    background-color: var(--link-hover-color);
+  }
+</style>
 
 </div>
 
