@@ -3,6 +3,7 @@ layout: single
 permalink: /about/
 title: "Sangyun Lee"
 author_profile: true
+classes: wide
 ---
 
 <img src="../images/profile2.png" alt="Sangyun Lee" style="width: 230px; float: right; border-radius: 50%; margin-left: 20px;">
@@ -94,7 +95,8 @@ I work on deep generative modeling and its various applications. In particular, 
     gap: 1.5rem;
   }
   .research-item {
-    border: 1px solid var(--text-color);
+    background-color: #f0f0f0; /* Light gray background */
+    border: 1px solid #d1d1d1;
     border-radius: 8px;
     padding: 1rem;
     transition: border-color 0.3s ease;
@@ -128,9 +130,6 @@ I work on deep generative modeling and its various applications. In particular, 
   }
 </style>
 
-</div>
-
-*(\* denotes equal contributions.)*
 
 ## Talk
 
