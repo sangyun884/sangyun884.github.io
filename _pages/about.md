@@ -12,7 +12,7 @@ classes: wide
 I'm Sangyun Lee (pronounced as "Sang-Yoon"), a first-year Ph.D. student in Electrical and Computer Engineering at [Carnegie Mellon University](https://www.cmu.edu/) advised by [Giulia Fanti](https://gfanti.github.io/). I obtained my Bachelor's degree in Computer Science at [Soongsil University](https://webtrans.llsollu.com:40443/ezweb?source=KO&target=EN&profileId=0012d8d1-14e0-4237-a6a5-a68bc015f94d&url=https%3A%2F%2Fssu.ac.kr%2F). During my undergraduate years, I worked with Professors [Jaegul Choo](https://sites.google.com/site/jaegulchoo/) and [Jong Chul Ye](https://scholar.google.com/citations?user=HNMjoNEAAAAJ&hl=ko). Previously, I was a research intern at [SI Analytics](https://www.si-analytics.ai/eng), [Kakao Enterprise](https://www.kakaoenterprise.com/), and [NAVER AI Lab](https://clova.ai/en/research/research-area-detail.html?id=0).
 
 <div style="margin-bottom: 20px;">
-  <a href="https://github.com/sangyun884/" style="display: inline-block; margin-right: 10px; padding: 8px 12px; background-color: #24292e; color: white; text-decoration: none; border-radius: 5px; font-weight: bold; transition: background-color 0.3s;">GitHub</a>
+  <a href="https://github.com/sangyun884/" style="display: inline-block; margin-right: 10px; padding: 8px 12px; background-color: #FA8072; color: white; text-decoration: none; border-radius: 5px; font-weight: bold; transition: background-color 0.3s;">GitHub</a>
   <a href="https://twitter.com/sang_yun_lee" style="display: inline-block; margin-right: 10px; padding: 8px 12px; background-color: #1DA1F2; color: white; text-decoration: none; border-radius: 5px; font-weight: bold; transition: background-color 0.3s;">Twitter</a>
   <a href="https://scholar.google.co.kr/citations?user=CGFkx-IAAAAJ&hl=en" style="display: inline-block; padding: 8px 12px; background-color: #4285F4; color: white; text-decoration: none; border-radius: 5px; font-weight: bold; transition: background-color 0.3s;">Google Scholar</a>
 </div>
@@ -95,8 +95,8 @@ I work on deep generative modeling and its various applications. In particular, 
     gap: 1.5rem;
   }
   .research-item {
-    background-color: #f0f0f0; /* Light gray background */
-    border: 1px solid #d1d1d1;
+    background-color: #ffffff; 
+    border: 1px solid #ffffff;
     border-radius: 8px;
     padding: 1rem;
     transition: border-color 0.3s ease;
