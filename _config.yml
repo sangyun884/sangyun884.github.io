@@ -103,14 +103,14 @@ analytics:
 # Site Author
 author:
   name             : "Sangyun Lee"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : ""
-  location         : "Korea"
-  email            :
+  avatar           : "images/profile2.png"
+  bio              : "Department of Electrical and Computer Engineering, CMU"
+  location         : "United States"
+  email            : sangyunl@andrew.cmu.edu
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:ml.swlee@gmail.com"
+      url: "mailto:sangyunl@andrew.cmu.edu"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
