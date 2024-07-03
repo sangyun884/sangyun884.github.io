@@ -95,7 +95,7 @@ I work on deep generative modeling and its various applications. In particular, 
     gap: 1.5rem;
   }
   .research-item {
-    background-color: #ffffff; 
+    background-color: #1DA1F2; 
     border: 1px solid #ffffff;
     border-radius: 8px;
     padding: 1rem;
