@@ -6,7 +6,7 @@ author_profile: true
 classes: wide
 ---
 
-<img src="../images/profile2.png" alt="Sangyun Lee" style="width: 230px; float: right; border-radius: 50%; margin-left: 20px;">
+<img src="../images/profile2.jpg" alt="Sangyun Lee" style="width: 230px; float: right; border-radius: 50%; margin-left: 20px;">
 
 
 I'm Sangyun Lee (pronounced as "Sang-Yoon"), a first-year Ph.D. student in Electrical and Computer Engineering at [Carnegie Mellon University](https://www.cmu.edu/) advised by [Giulia Fanti](https://gfanti.github.io/). I obtained my Bachelor's degree in Computer Science at [Soongsil University](https://webtrans.llsollu.com:40443/ezweb?source=KO&target=EN&profileId=0012d8d1-14e0-4237-a6a5-a68bc015f94d&url=https%3A%2F%2Fssu.ac.kr%2F). During my undergraduate years, I worked with Professors [Jaegul Choo](https://sites.google.com/site/jaegulchoo/) and [Jong Chul Ye](https://scholar.google.com/citations?user=HNMjoNEAAAAJ&hl=ko). Previously, I was a research intern at [SI Analytics](https://www.si-analytics.ai/eng), [Kakao Enterprise](https://www.kakaoenterprise.com/), and [NAVER AI Lab](https://clova.ai/en/research/research-area-detail.html?id=0).
