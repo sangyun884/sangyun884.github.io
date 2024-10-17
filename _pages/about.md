@@ -60,7 +60,7 @@ I work on deep generative modeling its application in developing machine intelli
 <div class="research-item">
   <h3>Progressive Deblurring of Diffusion Models for Coarse-to-Fine Image Synthesis</h3>
   <p><u>Sangyun Lee</u>, Hyungjin Chung, Jaehyeon Kim, Jong Chul Ye</p>
-  <p><em><strong>NeurIPS 2022 Workshop on Score-Based Methods</em></strong></p>
+  <p><em><strong>NeurIPS 2022 Workshop on Score-Based Methods</strong></em></p>
   <div class="research-links">
     <a href="https://arxiv.org/abs/2207.11192">Abstract</a>
     <a href="https://github.com/sangyun884/blur-diffusion">Code</a>
