@@ -23,7 +23,7 @@ Contact: sangyunl@andrew.cmu.edu
 
 ## Research Interest
 
-I work on deep generative modeling its application in developing machine intelligence that surpasses human capabilities.
+I work on deep generative modeling and its application in developing machine intelligence that surpasses human capabilities.
 
 ## News
 - **[Oct. 2024]** One paper has been accepted to NeurIPS 2024.
