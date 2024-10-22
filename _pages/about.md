@@ -32,6 +32,14 @@ I work on deep generative modeling and its application in developing machine int
 ## Research
 <div class="research-list">
 <div class="research-item">
+  <h3>Truncated Consistency Models</h3>
+  <p><u>Sangyun Lee</u>, Yilun Xu, Tomas Geffner, Giulia Fanti, Karsten Kreis, Arash Vahdat, Weili Nie</p>
+  <p><em><strong>arxiv preprint</strong></em></p>
+  <div class="research-links">
+    <a href="https://arxiv.org/abs/2410.14895">Abstract</a>
+  </div>
+</div>
+<div class="research-item">
   <h3>Improving the Training of Rectified Flows</h3>
   <p><u>Sangyun Lee</u>, Zinan Lin, Giulia Fanti</p>
   <p><em><strong>NeurIPS 2024</strong></em></p>
