@@ -9,7 +9,7 @@ classes: wide
 <img src="../images/profile2.jpg" alt="Sangyun Lee" style="width: 230px; float: right; border-radius: 50%; margin-left: 20px;">
 
 
-I'm Sangyun Lee (pronounced as "Sang-Yoon"), a second-year Ph.D. student in Electrical and Computer Engineering at [Carnegie Mellon University](https://www.cmu.edu/) advised by [Giulia Fanti](https://gfanti.github.io/). I'm currently a research intern at NVIDIA. I obtained my Bachelor's degree in Computer Science at [Soongsil University](https://webtrans.llsollu.com:40443/ezweb?source=KO&target=EN&profileId=0012d8d1-14e0-4237-a6a5-a68bc015f94d&url=https%3A%2F%2Fssu.ac.kr%2F). During my undergraduate years, I worked with Professors [Jaegul Choo](https://sites.google.com/site/jaegulchoo/) and [Jong Chul Ye](https://scholar.google.com/citations?user=HNMjoNEAAAAJ&hl=ko). Previously, I was a research intern at [SI Analytics](https://www.si-analytics.ai/eng), [Kakao Enterprise](https://www.kakaoenterprise.com/), and [NAVER AI Lab](https://clova.ai/en/research/research-area-detail.html?id=0).
+I'm Sangyun Lee (pronounced as "Sang-Yoon"), a second-year Ph.D. student in Electrical and Computer Engineering at [Carnegie Mellon University](https://www.cmu.edu/) advised by [Giulia Fanti](https://gfanti.github.io/). I obtained my Bachelor's degree in Computer Science at [Soongsil University](https://webtrans.llsollu.com:40443/ezweb?source=KO&target=EN&profileId=0012d8d1-14e0-4237-a6a5-a68bc015f94d&url=https%3A%2F%2Fssu.ac.kr%2F). Previously, I was a research intern at NVIDIA, [NAVER AI Lab](https://clova.ai/en/research/research-area-detail.html?id=0), [Kakao Enterprise](https://www.kakaoenterprise.com/), and [SI Analytics](https://www.si-analytics.ai/eng)
 
 <div style="margin-bottom: 20px;">
   <a href="https://github.com/sangyun884/" style="display: inline-block; margin-right: 10px; padding: 8px 12px; background-color: #FA8072; color: white; text-decoration: none; border-radius: 5px; font-weight: bold; transition: background-color 0.3s;">GitHub</a>
@@ -36,7 +36,9 @@ I work on deep generative modeling and its application in developing machine int
   <p><u>Sangyun Lee</u>, Yilun Xu, Tomas Geffner, Giulia Fanti, Karsten Kreis, Arash Vahdat, Weili Nie</p>
   <p><em><strong>arxiv preprint</strong></em></p>
   <div class="research-links">
+    <a href="https://truncated-cm.github.io/">Project Page</a>
     <a href="https://arxiv.org/abs/2410.14895">Abstract</a>
+    <a href="https://github.com/NVlabs/TCM">Code</a>
   </div>
 </div>
 <div class="research-item">
