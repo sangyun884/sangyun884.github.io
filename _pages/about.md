@@ -26,15 +26,14 @@ Contact: sangyunl@andrew.cmu.edu
 I work on deep generative modeling and its application in developing machine intelligence that surpasses human capabilities.
 
 ## News
-- **[Oct. 2024]** One paper has been accepted to NeurIPS 2024.
-- **[Jan. 2024]** I will start my internship at NVIDIA this summer (Host: [Arash Vahdat](http://latentspace.cc/))
+- **[Jan. 2025]** TCM has been accepted to ICLR 2025.
 
 ## Research
 <div class="research-list">
 <div class="research-item">
   <h3>Truncated Consistency Models</h3>
   <p><u>Sangyun Lee</u>, Yilun Xu, Tomas Geffner, Giulia Fanti, Karsten Kreis, Arash Vahdat, Weili Nie</p>
-  <p><em><strong>arxiv preprint</strong></em></p>
+  <p><em><strong>ICLR 2025</strong></em></p>
   <div class="research-links">
     <a href="https://truncated-cm.github.io/">Project Page</a>
     <a href="https://arxiv.org/abs/2410.14895">Abstract</a>
