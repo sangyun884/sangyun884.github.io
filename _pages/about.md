@@ -26,6 +26,7 @@ Contact: sangyunl@andrew.cmu.edu
 I work on deep generative modeling and its application in developing machine intelligence that surpasses human capabilities.
 
 ## News
+- **[Feb. 2025]** I'm honored to receive the Bob Lee Gregory Fellowship for the 2024-2025 academic year.
 - **[Jan. 2025]** TCM has been accepted to ICLR 2025.
 
 ## Research
