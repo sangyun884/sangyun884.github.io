@@ -139,12 +139,13 @@ I work on deep generative modeling and its application in developing machine int
 
 
 ## Talk
-
-### [Modulabs](https://modulabs.co.kr/) (2022.11.24 ~ 2022.12.08)
-
-- A Unified Framework for Diffusion Models [[Slide]](https://docs.google.com/presentation/d/1sI3cZ0EzWuqMHhuI3bPSnksDKJon9BJy_WCaFB4Kpgo/edit?usp=sharing) [[Video (Korean)]](https://youtu.be/KzrdkZUrbPk)
-- Diffusion Models for Conditional Generation [[Slide]](https://docs.google.com/presentation/d/1VQvMsZI6S-LLg-RsNEyR_NRaiFgiX3fW2lhUGdS7pEE/edit?usp=sharing) [[Video (Korean)]](https://youtu.be/Ec569AV6YD8)
-- Diffusion Models Everywhere [[Slide]](https://docs.google.com/presentation/d/1FNRmL8wS0jKLi3Uk_QdxyAP75i9pYEqFxhHhma4Slq8/edit?usp=sharing) [[Video (Korean)]](https://youtu.be/xVjrS-n9o68)
+- Mar 2025; Sewoong Oh's group @ University of Washington, "Truncated Consistency Models"
+- Mar 2025; Stability AI, "Truncated Consistency Models"
+- Nov 2024; BioImaging, Signal Processing & Learning Lab @ KAIST, "Improving the Training of Rectified Flows"
+- Nov 2022 - Dec 2022; A three-week series of talks at [Modulabs](https://modulabs.co.kr/)
+  - A Unified Framework for Diffusion Models [[Slide]](https://docs.google.com/presentation/d/1sI3cZ0EzWuqMHhuI3bPSnksDKJon9BJy_WCaFB4Kpgo/edit?usp=sharing) [[Video (Korean)]](https://youtu.be/KzrdkZUrbPk)
+  - Diffusion Models for Conditional Generation [[Slide]](https://docs.google.com/presentation/d/1VQvMsZI6S-LLg-RsNEyR_NRaiFgiX3fW2lhUGdS7pEE/edit?usp=sharing) [[Video (Korean)]](https://youtu.be/Ec569AV6YD8)
+  - Diffusion Models Everywhere [[Slide]](https://docs.google.com/presentation/d/1FNRmL8wS0jKLi3Uk_QdxyAP75i9pYEqFxhHhma4Slq8/edit?usp=sharing) [[Video (Korean)]](https://youtu.be/xVjrS-n9o68)
 
 ## Patent
 
