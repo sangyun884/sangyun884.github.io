@@ -26,8 +26,11 @@ Contact: sangyunl@andrew.cmu.edu
 I work on deep generative modeling and its application in developing machine intelligence that surpasses human capabilities.
 
 ## News
+- **[Jun. 2025]** I have received the ECE Department Recognition Award for Exemplary Qualifying Exam Performance, Spring 2025.
+  - Recognized by CMU ECE faculty for exemplary Ph.D. qualifying examination performance. This distinction was awarded by faculty vote to select students within the top 10% of Ph.D. student examinees during the Spring 2025 academic semester.
 - **[Feb. 2025]** I'm honored to receive the Bob Lee Gregory Fellowship for the 2024-2025 academic year.
 - **[Jan. 2025]** TCM has been accepted to ICLR 2025.
+
 
 ## Research
 <div class="research-list">
@@ -136,6 +139,10 @@ I work on deep generative modeling and its application in developing machine int
     background-color: var(--link-hover-color);
   }
 </style>
+
+## Scholarships
+- **Bob Lee Gregory Fellowship** for the 2024-2025 academic year.
+- **ECE Department Recognition Award** for Exemplary Qualifying Exam Performance, Spring 2025. Recognized by CMU ECE faculty for exemplary Ph.D. qualifying examination performance. This distinction was awarded by faculty vote to select students within the top 10% of Ph.D. student examinees during the Spring 2025 academic semester.
 
 
 ## Talk
