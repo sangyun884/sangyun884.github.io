@@ -35,6 +35,16 @@ I work on deep generative modeling and its application in developing machine int
 ## Research
 <div class="research-list">
 <div class="research-item">
+  <h3>BaNEL: Exploration Posteriors for Generative Modeling Using Only Negative Rewards</h3>
+  <p><u>Sangyun Lee</u>, Brandon Amos, Giulia Fanti</p>
+  <p><em><strong>arxiv preprint</strong></em></p>
+  <div class="research-links">
+    <a href="https://arxiv.org/abs/2510.09596">Abstract</a>
+    <a href="https://sangyun884.github.io/BaNEL/">Blog</a>
+
+  </div>
+</div>
+<div class="research-item">
   <h3>Truncated Consistency Models</h3>
   <p><u>Sangyun Lee</u>, Yilun Xu, Tomas Geffner, Giulia Fanti, Karsten Kreis, Arash Vahdat, Weili Nie</p>
   <p><em><strong>ICLR 2025</strong></em></p>
