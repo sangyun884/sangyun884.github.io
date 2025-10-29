@@ -40,7 +40,7 @@ I work on deep generative modeling and its application in developing machine int
   <p><em><strong>arxiv preprint</strong></em></p>
   <div class="research-links">
     <a href="https://arxiv.org/abs/2510.09596">Abstract</a>
-    <a href="https://sangyun884.github.io/BaNEL/">Blog</a>
+    <a href="https://blog.ml.cmu.edu/2025/10/27/learning-from-failure-to-tackle-extremely-hard-problems/">Blog</a>
 
   </div>
 </div>
