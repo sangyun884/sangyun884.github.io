@@ -32,7 +32,7 @@ I work on deep generative modeling and its application in developing machine int
 - **[Jan. 2025]** TCM has been accepted to ICLR 2025.
 
 
-## Research
+## Pub
 <div class="research-list">
 <div class="research-item">
   <h3>BaNEL: Exploration Posteriors for Generative Modeling Using Only Negative Rewards</h3>

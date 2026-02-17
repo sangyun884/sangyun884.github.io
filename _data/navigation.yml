@@ -2,10 +2,12 @@
 main:
   # - title: "Quick-Start Guide"
   #  url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
-  - title: "Home"
+  - title: "Blog"
     url: https://sangyun884.github.io/
   - title: "About"
     url: https://sangyun884.github.io/about/
+  - title: "Publications"
+    url: /about/#pub
   - title: "CV"
     url: https://drive.google.com/file/d/1wtVAjw8D-HKxOihZ657l2eObxeFLXEdr/view?usp=sharing
   - title: "Blog (Korean)"
