@@ -9,7 +9,7 @@ classes: wide
 <img src="../images/profile2.jpg" alt="Sangyun Lee" style="width: 230px; float: right; border-radius: 50%; margin-left: 20px;">
 
 
-I'm Sangyun Lee (pronounced as "Sang-Yoon"), a third-year Ph.D. student in Electrical and Computer Engineering at [Carnegie Mellon University](https://www.cmu.edu/) advised by [Giulia Fanti](https://gfanti.github.io/). I obtained my Bachelor's degree in Computer Science at [Soongsil University](https://webtrans.llsollu.com:40443/ezweb?source=KO&target=EN&profileId=0012d8d1-14e0-4237-a6a5-a68bc015f94d&url=https%3A%2F%2Fssu.ac.kr%2F). Previously, I was a research intern at NVIDIA, [NAVER AI Lab](https://clova.ai/en/research/research-area-detail.html?id=0), [Kakao Enterprise](https://www.kakaoenterprise.com/), and [SI Analytics](https://www.si-analytics.ai/eng).
+I'm Sangyun Lee (pronounced "Sang-Yoon"), a rising fourth-year Ph.D. student in Electrical and Computer Engineering at Carnegie Mellon University, advised by [Giulia Fanti](https://gfanti.github.io/). I am currently a research intern at Microsoft Research in Redmond. Previously, I was a research intern at NVIDIA, NAVER AI Lab, Kakao Enterprise, and SI Analytics. I earned my Bachelor's degree in Computer Science from Soongsil University in South Korea.
 
 <div style="margin-bottom: 20px;">
   <a href="https://github.com/sangyun884/" style="display: inline-block; margin-right: 10px; padding: 8px 12px; background-color: #FA8072; color: white; text-decoration: none; border-radius: 5px; font-weight: bold; transition: background-color 0.3s;">GitHub</a>
@@ -23,7 +23,10 @@ Contact: sangyunl@andrew.cmu.edu
 
 ## Research Interest
 
-I work on deep generative modeling and its application in developing machine intelligence that surpasses human capabilities.
+
+I work on developing visual and digital intelligence. 
+For visual intelligence, I work on understanding and improving generative models that synthesize realistic visual data [[blur diffusion](https://arxiv.org/abs/2207.11192), [curvature minimization](https://arxiv.org/abs/2301.12003), [improved rectified flow](https://arxiv.org/abs/2405.20320), [truncated consistency models](https://arxiv.org/abs/2410.14895)].
+For digital intelligence, I study better learning algorithms for training language models [[BaNEL](https://arxiv.org/abs/2510.09596), [LLMs Need Sleep](https://arxiv.org/abs/2605.26099)].
 
 ## News
 - **[Jun. 2025]** I have received the ECE Department Recognition Award for Exemplary Qualifying Exam Performance, Spring 2025.
@@ -34,6 +37,14 @@ I work on deep generative modeling and its application in developing machine int
 
 ## Publications
 <div class="research-list">
+<div class="research-item">
+  <h3>Do Language Models Need Sleep? Offline Recurrence for Improved Online Inference</h3>
+  <p><u>Sangyun Lee</u>, Sean McLeish, Tom Goldstein, Giulia Fanti</p>
+  <p><em><strong>arxiv preprint</strong></em></p>
+  <div class="research-links">
+    <a href="https://arxiv.org/abs/2605.26099">Abstract</a>
+  </div>
+</div>
 <div class="research-item">
   <h3>BaNEL: Exploration Posteriors for Generative Modeling Using Only Negative Rewards</h3>
   <p><u>Sangyun Lee</u>, Brandon Amos, Giulia Fanti</p>
