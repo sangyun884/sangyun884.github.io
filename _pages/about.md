@@ -24,15 +24,11 @@ Contact: sangyunl@andrew.cmu.edu
 ## Research Interest
 
 
-I work on developing visual and digital intelligence. 
-For visual intelligence, I work on understanding and improving generative models that synthesize realistic visual data [[blur diffusion](https://arxiv.org/abs/2207.11192), [curvature minimization](https://arxiv.org/abs/2301.12003), [improved rectified flow](https://arxiv.org/abs/2405.20320), [truncated consistency models](https://arxiv.org/abs/2410.14895)].
-For digital intelligence, I study better learning algorithms for training language models [[BaNEL](https://arxiv.org/abs/2510.09596), [LLMs Need Sleep](https://arxiv.org/abs/2605.26099)].
+I work on developing visual and digital intelligence.  For visual intelligence, I work on understanding and improving generative models that synthesize realistic visual data [[blur diffusion](https://arxiv.org/abs/2207.11192), [curvature minimization](https://arxiv.org/abs/2301.12003), [improved rectified flow](https://arxiv.org/abs/2405.20320), [truncated consistency models](https://arxiv.org/abs/2410.14895)]. For digital intelligence, I study better learning algorithms for training language models [[BaNEL](https://arxiv.org/abs/2510.09596), [LLMs need sleep](https://arxiv.org/abs/2605.26099)].
 
 ## News
-- **[Jun. 2025]** I have received the ECE Department Recognition Award for Exemplary Qualifying Exam Performance, Spring 2025.
-  - Recognized by CMU ECE faculty for exemplary Ph.D. qualifying examination performance. This distinction was awarded by faculty vote to select students within the top 10% of Ph.D. student examinees during the Spring 2025 academic semester.
-- **[Feb. 2025]** I'm honored to receive the Bob Lee Gregory Fellowship for the 2024-2025 academic year.
-- **[Jan. 2025]** TCM has been accepted to ICLR 2025.
+- **[May 2026]** Excited to release [Language Models Need Sleep](https://arxiv.org/abs/2605.26099)!
+- **[May 2026]** Started my internship at MSR, Redmond.
 
 
 ## Publications
