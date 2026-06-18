@@ -163,6 +163,7 @@ I work on developing visual and digital intelligence.  For visual intelligence, 
 
 
 ## Talk
+- Jun 2026; FAIR, Meta Superintelligence Labs, Paris, "Do Language Models Need Sleep?" [Slides](https://drive.google.com/file/d/1857MzW2vTtEiZ4Y2sRSkOOWws7lF5Qyz/view?usp=sharing)
 - Mar 2025; Sewoong Oh's group @ University of Washington, "Truncated Consistency Models"
 - Mar 2025; Stability AI, "Truncated Consistency Models"
 - Nov 2024; BioImaging, Signal Processing & Learning Lab @ KAIST, "Improving the Training of Rectified Flows"
