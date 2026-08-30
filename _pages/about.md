@@ -9,7 +9,7 @@ classes: wide
 <img src="../images/profile2.jpg" alt="Sangyun Lee" style="width: 230px; float: right; border-radius: 50%; margin-left: 20px;">
 
 
-I'm Sangyun Lee (pronounced "Sang-Yoon"), a rising fourth-year Ph.D. student in Electrical and Computer Engineering at Carnegie Mellon University, advised by [Giulia Fanti](https://gfanti.github.io/). I am currently a research intern at Microsoft Research in Redmond. Previously, I was a research intern at NVIDIA, NAVER AI Lab, Kakao Enterprise, and SI Analytics. I earned my Bachelor's degree in Computer Science from Soongsil University in South Korea.
+I'm Sangyun Lee (pronounced "Sang-Yoon"), a fourth-year Ph.D. student in Electrical and Computer Engineering at Carnegie Mellon University, advised by [Giulia Fanti](https://gfanti.github.io/). Previously, I was a research intern at Microsoft Research, NVIDIA, NAVER AI Lab, Kakao Enterprise, and SI Analytics. I earned my Bachelor's degree in Computer Science from Soongsil University in South Korea.
 
 <div style="margin-bottom: 20px;">
   <a href="https://github.com/sangyun884/" style="display: inline-block; margin-right: 10px; padding: 8px 12px; background-color: #FA8072; color: white; text-decoration: none; border-radius: 5px; font-weight: bold; transition: background-color 0.3s;">GitHub</a>
@@ -35,6 +35,10 @@ I work on developing visual and digital intelligence.  For visual intelligence, 
 <div class="research-list">
 <div class="research-item">
   <h3>Do Language Models Need Sleep? Offline Recurrence for Improved Online Inference</h3>
+  <details class="research-summary">
+    <summary>Summary</summary>
+    <p>Many have hypothesized that the remarkable learning ability of human brains has something to do with sleep. Can LLMs benefit from sleep, too? Our method is derived from three hypotheses: (1) the brain is just a gigantic recurrent network; (2) it updates its synapses during forward passes via local learning rules; and (3) sleep is simply a period during which forward passes and learning continue in the absence of input. Our method is the simplest possible instantiation of this idea: adding offline recurrent forward passes to state-space language models. The trained model uses this recurrence to learn good representations of the past by updating its fast weights, leading to improved performance after sleep.</p>
+  </details>
   <p><u>Sangyun Lee</u>, Sean McLeish, Tom Goldstein, Giulia Fanti</p>
   <p><em><strong>arxiv preprint</strong></em></p>
   <div class="research-links">
@@ -43,6 +47,10 @@ I work on developing visual and digital intelligence.  For visual intelligence, 
 </div>
 <div class="research-item">
   <h3>BaNEL: Exploration Posteriors for Generative Modeling Using Only Negative Rewards</h3>
+  <details class="research-summary">
+    <summary>Summary</summary>
+    <p>LLM RL works because the base model can already generate good outputs occasionally. However, when the problem is very hard and very far from the pretraining dataset, that is no longer the case (think about proving the Riemann hypothesis, for instance). What should we do when the base model obtains no positive reward? Our idea is that we can still learn from those failed attempts by learning a generative model of the negative samples and then using it to update the model's posterior distribution to avoid similar failures in the future.</p>
+  </details>
   <p><u>Sangyun Lee</u>, Brandon Amos, Giulia Fanti</p>
   <p><em><strong>arxiv preprint</strong></em></p>
   <div class="research-links">
@@ -53,6 +61,10 @@ I work on developing visual and digital intelligence.  For visual intelligence, 
 </div>
 <div class="research-item">
   <h3>Truncated Consistency Models</h3>
+  <details class="research-summary">
+    <summary>Summary</summary>
+    <p>This paper aims to improve the one-step generation quality of <a href="https://arxiv.org/abs/2303.01469">consistency models</a>. We observe that, in consistency models, two conflicting objectives&mdash;denoising (<em>t</em> &rarr; 0 mapping) and generation (<em>T</em> &rarr; 0 mapping)&mdash;compete for model capacity. This is especially problematic because CM is a <a href="https://developer.nvidia.com/blog/accelerating-diffusion-models-with-an-open-plug-and-play-offering/">trajectory-based distillation</a> method that already requires a much larger model to match the quality of other methods. To resolve this, we propose a method for specializing CM for generation while freeing its capacity from denoising. At the time of release and at the scale we considered, the resulting model was the state of the art among trajectory-based models.</p>
+  </details>
   <p><u>Sangyun Lee</u>, Yilun Xu, Tomas Geffner, Giulia Fanti, Karsten Kreis, Arash Vahdat, Weili Nie</p>
   <p><em><strong>ICLR 2025</strong></em></p>
   <div class="research-links">
@@ -63,6 +75,10 @@ I work on developing visual and digital intelligence.  For visual intelligence, 
 </div>
 <div class="research-item">
   <h3>Improving the Training of Rectified Flows</h3>
+  <details class="research-summary">
+    <summary>Summary</summary>
+    <p>Rectified flows can learn less curved generative trajectories than diffusion models by going through many "Reflow" training stages. This paper argues that only one Reflow stage should be enough to obtain near-straight trajectories and proposes several techniques for achieving good one-step generative performance with only one Reflow stage. Some of the techniques proposed here have been adopted in <a href="https://arxiv.org/abs/2502.10248">Step-Video-T2V's turbo model</a>.</p>
+  </details>
   <p><u>Sangyun Lee</u>, Zinan Lin, Giulia Fanti</p>
   <p><em><strong>NeurIPS 2024</strong></em></p>
   <div class="research-links">
@@ -72,6 +88,10 @@ I work on developing visual and digital intelligence.  For visual intelligence, 
 </div>
 <div class="research-item">
   <h3>Sequential Data Generation with Groupwise Diffusion Process</h3>
+  <details class="research-summary">
+    <summary>Summary</summary>
+    <p>Diffusion models vs. autoregressive models: Are they really different? This paper unifies the two by generalizing diffusion to be able to generate each part of data sequentially. This allows, for example, each patch or pixel of an image to be generated sequentially in any order, making autoregressive models a special case. We extend this to a frequency domain, where diffusion autoregressively generates spectral components from low to high frequencies, yielding a hierarchical, disentangled latent space.</p>
+  </details>
   <p><u>Sangyun Lee</u>, Gayoung Lee, Hyunsu Kim, Junho Kim, Youngjung Uh</p>
   <p><em><strong>arxiv preprint, also appeared at <a href="https://openreview.net/forum?id=hLeh6b0vlt#all">ICML 2023 Workshop on Structured Probabilistic Inference & Generative Modeling</a></strong></em></p>
   <div class="research-links">
@@ -80,6 +100,10 @@ I work on developing visual and digital intelligence.  For visual intelligence, 
 </div>
 <div class="research-item">
   <h3>Minimizing Trajectory Curvature of ODE-based Generative Models</h3>
+  <details class="research-summary">
+    <summary>Summary</summary>
+    <p>Why should sampling from diffusion/flow models be iterative? This is because their generative trajectories are highly curved. This paper proposes a method for training low-curvature flow models by learning a neural coupling between data and noise that minimizes intersections.</p>
+  </details>
   <p><u>Sangyun Lee</u>, Beomsu Kim, Jong Chul Ye</p>
   <p><em><strong>ICML 2023</strong></em></p>
   <div class="research-links">
@@ -89,6 +113,10 @@ I work on developing visual and digital intelligence.  For visual intelligence, 
 </div>
 <div class="research-item">
   <h3>Progressive Deblurring of Diffusion Models for Coarse-to-Fine Image Synthesis</h3>
+  <details class="research-summary">
+    <summary>Summary</summary>
+    <p>Diffusion models generate data through iterative denoising. But is that the only way, or can we generate data by inverting any signal-corruption process? This paper is one of the first to show that deblurring can be used for image generation. This is done by generalizing forward and reverse SDEs to different frequency domains.</p>
+  </details>
   <p><u>Sangyun Lee</u>, Hyungjin Chung, Jaehyeon Kim, Jong Chul Ye</p>
   <p><em><strong>NeurIPS 2022 Workshop on Score-Based Methods</strong></em></p>
   <div class="research-links">
@@ -137,6 +165,58 @@ I work on developing visual and digital intelligence.  For visual intelligence, 
   }
   .research-item p {
     margin: 0.25rem 0;
+  }
+  .research-item .research-summary {
+    margin: 0.25rem 0 0.75rem;
+    background-color: rgba(255, 255, 255, 0.14);
+    border-left: 3px solid rgba(255, 255, 255, 0.75);
+    border-radius: 0 6px 6px 0;
+    overflow: hidden;
+  }
+  .research-summary > summary {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.75rem;
+    padding: 0.65rem 0.9rem;
+    cursor: pointer;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    list-style: none;
+    transition: background-color 0.2s ease;
+  }
+  .research-summary > summary::-webkit-details-marker {
+    display: none;
+  }
+  .research-summary > summary::after {
+    content: "\25BE";
+    font-size: 0.85em;
+    transition: transform 0.2s ease;
+  }
+  .research-summary > summary:hover {
+    background-color: rgba(255, 255, 255, 0.08);
+  }
+  .research-summary > summary:focus-visible {
+    outline: 2px solid currentColor;
+    outline-offset: -3px;
+  }
+  .research-summary[open] > summary {
+    margin-bottom: 0.65rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.25);
+  }
+  .research-summary[open] > summary::after {
+    transform: rotate(180deg);
+  }
+  .research-summary > p {
+    margin: 0;
+    padding: 0 0.9rem 0.75rem;
+    line-height: 1.55;
+  }
+  .research-summary a {
+    color: inherit;
+    font-weight: 600;
+    text-decoration: underline;
+    text-underline-offset: 2px;
   }
   .research-links {
     margin-top: 0.5rem;
