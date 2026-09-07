@@ -1,10 +1,10 @@
 ---
-
-## title: "Nature of Moving Goalposts"
+title: "Nature of Moving Goalposts"
 date: 2026-09-07
 permalink: /nature-of-moving-goalposts/
 excerpt: "As AI improves, so do the humans who use it—and the bar for AGI rises with them."
 use_math: true
+---
 
 ![Jensen Huang’s post about AGI]({{ "/images/2026-09-07-nature-of-moving-goalposts/jensen-huang-agi.png" | relative_url }}){: .align-center}
 
