@@ -39,6 +39,8 @@ I work on developing visual and digital intelligence.  For visual intelligence, 
   <p><em><strong>NeurIPS 2026, also appeared at <a href="https://spigmworkshop2026.github.io/">ICML 2026 Workshop on Structured Probabilistic Inference &amp; Generative Modeling</a></strong></em></p>
   <div class="research-links">
     <a href="https://arxiv.org/abs/2605.26099">Abstract</a>
+    <a href="https://github.com/sangyun884/llm-sleep">Code</a>
+    <a href="https://drive.google.com/file/d/1zX-3fFETZXxclVeI1vQJfMKZDrAfd9-A/view?usp=sharing">Slide</a>
   </div>
   <details class="research-summary">
     <summary>Summary</summary>
