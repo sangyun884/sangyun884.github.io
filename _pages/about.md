@@ -36,8 +36,7 @@ I work on developing visual and digital intelligence.  For visual intelligence, 
 <div class="research-item">
   <h3>Do Language Models Need Sleep? Offline Recurrence for Improved Online Inference</h3>
   <p><u>Sangyun Lee</u>, Sean McLeish, Tom Goldstein, Giulia Fanti</p>
-  <p><em><strong>NeurIPS 2026</strong></em></p>
-  <p>Also appeared at ICML 2026 Workshop on Structured Probabilistic Inference &amp; Generative Modeling.</p>
+  <p><em><strong>NeurIPS 2026, also appeared at <a href="https://spigmworkshop2026.github.io/">ICML 2026 Workshop on Structured Probabilistic Inference &amp; Generative Modeling</a></strong></em></p>
   <div class="research-links">
     <a href="https://arxiv.org/abs/2605.26099">Abstract</a>
   </div>
