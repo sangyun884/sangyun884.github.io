@@ -27,13 +27,27 @@ Contact: sangyunl@andrew.cmu.edu
 I work on developing visual and digital intelligence.  For visual intelligence, I work on understanding and improving generative models that synthesize realistic visual data [[blur diffusion](https://arxiv.org/abs/2207.11192), [curvature minimization](https://arxiv.org/abs/2301.12003), [improved rectified flow](https://arxiv.org/abs/2405.20320), [truncated consistency models](https://arxiv.org/abs/2410.14895)]. For digital intelligence, I study better learning algorithms for training language models [[BaNEL](https://arxiv.org/abs/2510.09596), [LLMs need sleep](https://arxiv.org/abs/2605.26099)].
 
 ## News
+- **[Nov 2026]** We scaled up our work on LLM Sleep to 1.2B params. / 100B token scale! Check out the [paper](https://arxiv.org/abs/2611.32802).
 - **[May 2026]** Excited to release [Language Models Need Sleep](https://arxiv.org/abs/2605.26099)!
 - **[May 2026]** Started my internship at MSR, Redmond.
 
 
 ## Publications
 <div class="research-list">
+
 <div class="research-item">
+  <h3>Sample-Efficient In-Context Adaptation via Sleep</h3>
+  <p><u>Sangyun Lee</u>, Zhang Enyan, Michael Xu, Hao Tang, Zinan Lin, Weijia Xu, Chris Quirk, Jianfeng Gao, Giulia Fanti, Xiaodong Liu</p>
+  <p><em><strong>arXiv preprint, 2026</strong></em></p>
+  <div class="research-links">
+    <a href="https://arxiv.org/abs/2611.32802">Abstract</a>
+  </div>
+  <details class="research-summary">
+    <summary>Summary</summary>
+    <p>Intelligence is not how much one knows, but how rapidly one learns. We find that transformers that periodically <a href="#language-models-need-sleep">“sleep”</a> adapt more sample-efficiently in context across multiple evaluations. Increasing the number of recurrent steps <em>N</em> (or “sleep duration”) further improves sample efficiency. We tested this with models of up to 1.2B parameters attn-only transformer models trained on up to 100B tokens.</p>
+  </details>
+</div>
+<div class="research-item" id="language-models-need-sleep">
   <h3>Do Language Models Need Sleep? Offline Recurrence for Improved Online Inference</h3>
   <p><u>Sangyun Lee</u>, Sean McLeish, Tom Goldstein, Giulia Fanti</p>
   <p><em><strong>NeurIPS 2026, also appeared at <a href="https://spigmworkshop2026.github.io/">ICML 2026 Workshop on Structured Probabilistic Inference &amp; Generative Modeling</a></strong></em></p>
